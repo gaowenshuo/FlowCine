@@ -382,12 +382,15 @@
     }
     $('#main-comparison').setAttribute('aria-labelledby', `example-${example.id}`);
     mainPlayer.setClips(example.source, example.edited, example);
-    $('#edit-category').textContent = example.category;
-    $('#edit-title').textContent = example.title;
-    $('#edit-summary').textContent = example.summary;
-    $('#edit-instruction').textContent = example.instruction;
-    $('.instruction').open = false;
-    const dock = $('#reference-dock'); dock.replaceChildren();
+    renderEditContext(example, $('#results .edit-context'));
+  }
+  function renderEditContext(example, root) {
+    $('.micro-label', root).textContent = example.category;
+    $('h3', root).textContent = example.title;
+    $('.edit-summary > p:not(.micro-label)', root).textContent = example.summary;
+    $('.instruction p', root).textContent = example.instruction;
+    $('.instruction', root).open = false;
+    const dock = $('.reference-dock', root); dock.replaceChildren();
     if (example.refs.length) example.refs.forEach(ref => dock.append(makeReference(ref)));
     else {
       const note = document.createElement('p'); note.className = 'prompt-only';
@@ -602,6 +605,8 @@
   }
   function selectAnalysisCase(example) {
     analysisCase = example;
+    const original = data.cases.find(item => item.paperCase === example.id);
+    renderEditContext({ ...example, category: original.category, summary: original.summary }, $('#analysis .edit-context'));
     for (const button of $$('button', $('#analysis-case-tabs'))) {
       const active = button.dataset.analysisCase === example.id;
       button.setAttribute('aria-selected', String(active)); button.tabIndex = active ? 0 : -1;

@@ -234,39 +234,9 @@ window.FLOWCINE = {
       "height": 448
     },
     {
-      "id": "good1",
-      "paperCase": "good1",
-      "title": "12",
-      "category": "Text-guided",
-      "summary": "A refined midnight jazz lounge with walnut panels, city windows and amber table lamps, with a moss-green midweight cotton pullover hoodie with one broad ivory chest band, muted ochre upper-sleeve panels and subtle navy seam edging.",
-      "instruction": "Change the background to a refined midnight jazz lounge with walnut panels, city windows and amber table lamps; a more distinct warm-gold side key and cool-blue window fill, restrained rim light and visible soft floor reflections. Change the clothing surface to a moss-green midweight cotton pullover hoodie with one broad ivory chest band, muted ochre upper-sleeve panels and subtle navy seam edging. Keep the original hood, drawstrings, long sleeves, pullover construction and casual fit. Do not add a jacket. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
-      "source": "assets/videos/case-good1-source.mp4",
-      "edited": "assets/videos/case-good1-edited.mp4",
-      "posterSource": "assets/images/case-good1-source.webp",
-      "posterEdited": "assets/images/case-good1-edited.webp",
-      "refs": [],
-      "width": 800,
-      "height": 448
-    },
-    {
-      "id": "good3",
-      "paperCase": "good3",
-      "title": "13",
-      "category": "Text-guided",
-      "summary": "A rain-damp old-brick courtyard at blue hour with arched doorways, with a charcoal cotton-twill collared overshirt with broad sand-ochre shoulder panels and subtle ivory pocket-edge stitching, worn over the original dark inner shirt.",
-      "instruction": "Change the background to a rain-damp old-brick courtyard at blue hour with arched doorways; warm amber lamps, cool-blue ambient fill, a soft warm face key and subtle wet-ground reflections. Change the clothing surface to a charcoal cotton-twill collared overshirt with broad sand-ochre shoulder panels and subtle ivory pocket-edge stitching, worn over the original dark inner shirt. Keep the original grey brimmed hat, rolled long sleeves, collar, shirt fit and original thinking/hand-to-chin gesture. Do not replace the brimmed hat with a knit cap. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
-      "source": "assets/videos/case-good3-source.mp4",
-      "edited": "assets/videos/case-good3-edited.mp4",
-      "posterSource": "assets/images/case-good3-source.webp",
-      "posterEdited": "assets/images/case-good3-edited.webp",
-      "refs": [],
-      "width": 800,
-      "height": 448
-    },
-    {
       "id": "good4",
       "paperCase": "good4",
-      "title": "14",
+      "title": "12",
       "category": "Text-guided",
       "summary": "A refined art-deco lobby with brass details and distant tall windows, with a deep petrol-teal softly textured jacket with ivory lapel-edge piping, over the original light inner blouse.",
       "instruction": "Change the background to a refined art-deco lobby with brass details and distant tall windows; warmer copper-gold sconces, cooler dusk window fill, a readable soft key and restrained broad reflections. Change the clothing surface to a deep petrol-teal softly textured jacket with ivory lapel-edge piping, over the original light inner blouse. Keep the original jacket's collar, length, sleeves, fit and the light blouse. Do not add a vest, dress, scarf or extra layer. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
@@ -281,7 +251,7 @@ window.FLOWCINE = {
     {
       "id": "good5",
       "paperCase": "good5",
-      "title": "15",
+      "title": "13",
       "category": "Text-guided",
       "summary": "A pale-stone museum lounge with tall arched windows, with a muted ochre wool-twill checked blazer with broad navy-and-ivory windowpane lines, over the original plain black V-neck shirt.",
       "instruction": "Change the background to a pale-stone museum lounge with tall arched windows; stronger warm amber practical highlights against cool dusk-blue window fill, a soft face key and readable broad shadows. Change the clothing surface to a muted ochre wool-twill checked blazer with broad navy-and-ivory windowpane lines, over the original plain black V-neck shirt. Keep the original blazer silhouette, lapels, long sleeves, pocket-square placement and black V-neck inner shirt. Use one medium-scale windowpane pattern, not dense embroidery. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
@@ -296,7 +266,7 @@ window.FLOWCINE = {
     {
       "id": "good6",
       "paperCase": "good6",
-      "title": "16",
+      "title": "14",
       "category": "Scene",
       "summary": "The maritime observatory in the optional background reference, with a fitted long-sleeve crew-neck knit sweater with broad petrol-blue, warm-coral and ivory horizontal bands and a restrained ochre accent band.",
       "instruction": "Change the background to the maritime observatory in the optional background reference; peach-gold sunrise ocean windows, warm directional key, cool-blue ocean fill and amber practical accents, with readable navy walls. Change the clothing surface to a fitted long-sleeve crew-neck knit sweater with broad petrol-blue, warm-coral and ivory horizontal bands and a restrained ochre accent band. Preserve the source fitted sweater silhouette, crew neckline and full-length sleeves; only recolor the existing horizontal-band layout and mildly enrich the knit texture. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
@@ -314,9 +284,138 @@ window.FLOWCINE = {
       "height": 448
     },
     {
+      "id": "good8",
+      "paperCase": "good8",
+      "title": "15",
+      "category": "Scene",
+      "summary": "The walnut recording loft in the optional background reference, with a charcoal short-sleeve collared button-front cotton shirt with medium-spaced sage-and-ivory vertical stripes and restrained ivory pocket binding.",
+      "instruction": "Change the background to the walnut recording loft in the optional background reference; later blue-hour windows, brighter warm amber lamp pools, soft warm directional key and cool-blue fill, with readable shadows and no neon effects. Change the clothing surface to a charcoal short-sleeve collared button-front cotton shirt with medium-spaced sage-and-ivory vertical stripes and restrained ivory pocket binding. Preserve the original short sleeves, conventional collar, button front, casual shirt fit, grey hair and glasses. Do not add sleeves or accessories. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
+      "source": "assets/videos/case-good8-source.mp4",
+      "edited": "assets/videos/case-good8-edited.mp4",
+      "posterSource": "assets/images/case-good8-source.webp",
+      "posterEdited": "assets/images/case-good8-edited.webp",
+      "refs": [
+        {
+          "label": "Scene",
+          "image": "assets/images/case-good8-scene.webp"
+        }
+      ],
+      "width": 800,
+      "height": 448
+    },
+    {
+      "id": "good9",
+      "paperCase": "good9",
+      "title": "16",
+      "category": "Scene",
+      "summary": "The glass garden pavilion in the optional background reference, with a dark petrol-blue and warm-terracotta medium-scale checked long-sleeve collared cotton shirt with a subtle woven texture.",
+      "instruction": "Change the background to the glass garden pavilion in the optional background reference; richer low golden sunlight and broad diagonal floor shadows, warm leaf highlights and restrained cool jade skylight fill, with natural skin tones. Change the clothing surface to a dark petrol-blue and warm-terracotta medium-scale checked long-sleeve collared cotton shirt with a subtle woven texture. Keep the original shirt cut, sleeve length, collar, cuff position and red baseball cap. Remove lettering on the cap without changing its color or shape. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
+      "source": "assets/videos/case-good9-source.mp4",
+      "edited": "assets/videos/case-good9-edited.mp4",
+      "posterSource": "assets/images/case-good9-source.webp",
+      "posterEdited": "assets/images/case-good9-edited.webp",
+      "refs": [
+        {
+          "label": "Scene",
+          "image": "assets/images/case-good9-scene.webp"
+        }
+      ],
+      "width": 800,
+      "height": 448
+    },
+    {
+      "id": "good11",
+      "paperCase": "good11",
+      "title": "17",
+      "category": "Scene",
+      "summary": "The limestone rooftop gallery lounge in the optional background reference, with a petrol-blue long-sleeve crew-neck knit top with broad ivory horizontal chest bands, restrained ochre shoulder accents and subtly visible cotton knit texture.",
+      "instruction": "Change the background to the limestone rooftop gallery lounge in the optional background reference; deep blue-violet city sky, warm gold uplights on columns and floor, cool window fill and a soft amber rim, with natural readable contrast. Change the clothing surface to a petrol-blue long-sleeve crew-neck knit top with broad ivory horizontal chest bands, restrained ochre shoulder accents and subtly visible cotton knit texture. Keep the source full-length sleeves, neckline, chest-band layout, fit, wristwatch and bracelet on their original wrists; recolor the existing top, do not redesign its silhouette. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
+      "source": "assets/videos/case-good11-source.mp4",
+      "edited": "assets/videos/case-good11-edited.mp4",
+      "posterSource": "assets/images/case-good11-source.webp",
+      "posterEdited": "assets/images/case-good11-edited.webp",
+      "refs": [
+        {
+          "label": "Scene",
+          "image": "assets/images/case-good11-scene.webp"
+        }
+      ],
+      "width": 800,
+      "height": 448
+    },
+    {
+      "id": "good12",
+      "paperCase": "good12",
+      "title": "18",
+      "category": "Scene · Clothing",
+      "summary": "The maritime observatory in the optional background reference, with a fitted berry-mauve short-sleeve cropped crew-neck athletic T-shirt with broad slate-blue side panels and one ivory diagonal chest panel, in subtly ribbed matte stretch knit, matching the clothing reference.",
+      "instruction": "Change the background to the maritime observatory in the optional background reference; peach-gold sunrise ocean windows, warm directional key, cool-blue ocean fill and amber practical accents, with readable navy walls. Change the clothing surface to a fitted berry-mauve short-sleeve cropped crew-neck athletic T-shirt with broad slate-blue side panels and one ivory diagonal chest panel, in subtly ribbed matte stretch knit, matching the clothing reference. Preserve the exact source short sleeves, fitted crew neckline, cropped hem, visible midriff, high bun and dark high-waisted leggings. Do not convert the crop T-shirt into a vest or sports bra. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
+      "source": "assets/videos/case-good12-source.mp4",
+      "edited": "assets/videos/case-good12-edited.mp4",
+      "posterSource": "assets/images/case-good12-source.webp",
+      "posterEdited": "assets/images/case-good12-edited.webp",
+      "refs": [
+        {
+          "label": "Scene",
+          "image": "assets/images/case-good12-scene.webp"
+        },
+        {
+          "label": "Clothing",
+          "image": "assets/images/case-good12-clothing.webp"
+        }
+      ],
+      "width": 800,
+      "height": 448
+    },
+    {
+      "id": "lounge_suit",
+      "paperCase": "lounge_suit",
+      "title": "19",
+      "category": "Text-guided",
+      "summary": "An art-deco lounge and burgundy suit with sparse gold windowpane checks.",
+      "instruction": "Change the background to a quiet art-deco lounge at night with dark walnut walls, warm amber table lamps and tall windows with soft cool-blue moonlight. The edited clothing is a deep burgundy suit jacket with a widely spaced restrained gold windowpane check, the original white shirt and dark necktie. Keep the original suit lapels, sleeve length, cut and fit; the gold windowpane pattern is sparse and medium-scale, not tiny or densely repeated. Warm amber practical light shapes the face and suit, while soft cool-blue window light gives a gentle opposite-side rim; retain natural readable skin and rich but not crushed shadows. Preserve the source facial identity, ethnicity, facial features, hairstyle, expression, body proportions, pose, recorded motion, camera framing and person scale. Relight naturally to the target environment without changing facial identity. Keep the environment and light sources temporally stable, without flashing, flicker or changing time of day. No extra people, no readable text, no logos. Keep the first-frame body pose, composition and subject scale unchanged. Photorealistic cinematic image.",
+      "source": "assets/videos/case-lounge_suit-source.mp4",
+      "edited": "assets/videos/case-lounge_suit-edited.mp4",
+      "posterSource": "assets/images/case-lounge_suit-source.webp",
+      "posterEdited": "assets/images/case-lounge_suit-edited.webp",
+      "refs": [],
+      "width": 720,
+      "height": 480
+    },
+    {
+      "id": "good1",
+      "paperCase": "good1",
+      "title": "20",
+      "category": "Text-guided",
+      "summary": "A refined midnight jazz lounge with walnut panels, city windows and amber table lamps, with a moss-green midweight cotton pullover hoodie with one broad ivory chest band, muted ochre upper-sleeve panels and subtle navy seam edging.",
+      "instruction": "Change the background to a refined midnight jazz lounge with walnut panels, city windows and amber table lamps; a more distinct warm-gold side key and cool-blue window fill, restrained rim light and visible soft floor reflections. Change the clothing surface to a moss-green midweight cotton pullover hoodie with one broad ivory chest band, muted ochre upper-sleeve panels and subtle navy seam edging. Keep the original hood, drawstrings, long sleeves, pullover construction and casual fit. Do not add a jacket. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
+      "source": "assets/videos/case-good1-source.mp4",
+      "edited": "assets/videos/case-good1-edited.mp4",
+      "posterSource": "assets/images/case-good1-source.webp",
+      "posterEdited": "assets/images/case-good1-edited.webp",
+      "refs": [],
+      "width": 800,
+      "height": 448
+    },
+    {
+      "id": "good3",
+      "paperCase": "good3",
+      "title": "21",
+      "category": "Text-guided",
+      "summary": "A rain-damp old-brick courtyard at blue hour with arched doorways, with a charcoal cotton-twill collared overshirt with broad sand-ochre shoulder panels and subtle ivory pocket-edge stitching, worn over the original dark inner shirt.",
+      "instruction": "Change the background to a rain-damp old-brick courtyard at blue hour with arched doorways; warm amber lamps, cool-blue ambient fill, a soft warm face key and subtle wet-ground reflections. Change the clothing surface to a charcoal cotton-twill collared overshirt with broad sand-ochre shoulder panels and subtle ivory pocket-edge stitching, worn over the original dark inner shirt. Keep the original grey brimmed hat, rolled long sleeves, collar, shirt fit and original thinking/hand-to-chin gesture. Do not replace the brimmed hat with a knit cap. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
+      "source": "assets/videos/case-good3-source.mp4",
+      "edited": "assets/videos/case-good3-edited.mp4",
+      "posterSource": "assets/images/case-good3-source.webp",
+      "posterEdited": "assets/images/case-good3-edited.webp",
+      "refs": [],
+      "width": 800,
+      "height": 448
+    },
+    {
       "id": "good7",
       "paperCase": "good7",
-      "title": "17",
+      "title": "22",
       "category": "Scene · Clothing · Prop",
       "summary": "The conservatory kitchen in the optional background reference, with its arched garden windows, sage cabinetry and walnut island, with an indigo-blue cotton collared shirt with clearly spaced ivory pinstripes and subtle ochre cuff facing, with a muted olive canvas waist apron and restrained rust-colored pocket binding, matching the clothing reference.",
       "instruction": "Change the background to the conservatory kitchen in the optional background reference, with its arched garden windows, sage cabinetry and walnut island; richer golden window sunlight, broad stable foliage/window shadows, cool soft garden fill and warm amber pendants. Change the clothing surface to an indigo-blue cotton collared shirt with clearly spaced ivory pinstripes and subtle ochre cuff facing, with a muted olive canvas waist apron and restrained rust-colored pocket binding, matching the clothing reference. Preserve the source rolled long sleeves, collared button front and waist-only apron without a bib. Replace only the large foreground pumpkin on the right tabletop with the whole round striped green watermelon in the object reference; keep its tabletop position and scale, the worktop, the small food piece in her hand, original grip and action. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
@@ -342,93 +441,9 @@ window.FLOWCINE = {
       "height": 448
     },
     {
-      "id": "good8",
-      "paperCase": "good8",
-      "title": "18",
-      "category": "Scene",
-      "summary": "The walnut recording loft in the optional background reference, with a charcoal short-sleeve collared button-front cotton shirt with medium-spaced sage-and-ivory vertical stripes and restrained ivory pocket binding.",
-      "instruction": "Change the background to the walnut recording loft in the optional background reference; later blue-hour windows, brighter warm amber lamp pools, soft warm directional key and cool-blue fill, with readable shadows and no neon effects. Change the clothing surface to a charcoal short-sleeve collared button-front cotton shirt with medium-spaced sage-and-ivory vertical stripes and restrained ivory pocket binding. Preserve the original short sleeves, conventional collar, button front, casual shirt fit, grey hair and glasses. Do not add sleeves or accessories. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
-      "source": "assets/videos/case-good8-source.mp4",
-      "edited": "assets/videos/case-good8-edited.mp4",
-      "posterSource": "assets/images/case-good8-source.webp",
-      "posterEdited": "assets/images/case-good8-edited.webp",
-      "refs": [
-        {
-          "label": "Scene",
-          "image": "assets/images/case-good8-scene.webp"
-        }
-      ],
-      "width": 800,
-      "height": 448
-    },
-    {
-      "id": "good9",
-      "paperCase": "good9",
-      "title": "19",
-      "category": "Scene",
-      "summary": "The glass garden pavilion in the optional background reference, with a dark petrol-blue and warm-terracotta medium-scale checked long-sleeve collared cotton shirt with a subtle woven texture.",
-      "instruction": "Change the background to the glass garden pavilion in the optional background reference; richer low golden sunlight and broad diagonal floor shadows, warm leaf highlights and restrained cool jade skylight fill, with natural skin tones. Change the clothing surface to a dark petrol-blue and warm-terracotta medium-scale checked long-sleeve collared cotton shirt with a subtle woven texture. Keep the original shirt cut, sleeve length, collar, cuff position and red baseball cap. Remove lettering on the cap without changing its color or shape. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
-      "source": "assets/videos/case-good9-source.mp4",
-      "edited": "assets/videos/case-good9-edited.mp4",
-      "posterSource": "assets/images/case-good9-source.webp",
-      "posterEdited": "assets/images/case-good9-edited.webp",
-      "refs": [
-        {
-          "label": "Scene",
-          "image": "assets/images/case-good9-scene.webp"
-        }
-      ],
-      "width": 800,
-      "height": 448
-    },
-    {
-      "id": "good11",
-      "paperCase": "good11",
-      "title": "20",
-      "category": "Scene",
-      "summary": "The limestone rooftop gallery lounge in the optional background reference, with a petrol-blue long-sleeve crew-neck knit top with broad ivory horizontal chest bands, restrained ochre shoulder accents and subtly visible cotton knit texture.",
-      "instruction": "Change the background to the limestone rooftop gallery lounge in the optional background reference; deep blue-violet city sky, warm gold uplights on columns and floor, cool window fill and a soft amber rim, with natural readable contrast. Change the clothing surface to a petrol-blue long-sleeve crew-neck knit top with broad ivory horizontal chest bands, restrained ochre shoulder accents and subtly visible cotton knit texture. Keep the source full-length sleeves, neckline, chest-band layout, fit, wristwatch and bracelet on their original wrists; recolor the existing top, do not redesign its silhouette. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
-      "source": "assets/videos/case-good11-source.mp4",
-      "edited": "assets/videos/case-good11-edited.mp4",
-      "posterSource": "assets/images/case-good11-source.webp",
-      "posterEdited": "assets/images/case-good11-edited.webp",
-      "refs": [
-        {
-          "label": "Scene",
-          "image": "assets/images/case-good11-scene.webp"
-        }
-      ],
-      "width": 800,
-      "height": 448
-    },
-    {
-      "id": "good12",
-      "paperCase": "good12",
-      "title": "21",
-      "category": "Scene · Clothing",
-      "summary": "The maritime observatory in the optional background reference, with a fitted berry-mauve short-sleeve cropped crew-neck athletic T-shirt with broad slate-blue side panels and one ivory diagonal chest panel, in subtly ribbed matte stretch knit, matching the clothing reference.",
-      "instruction": "Change the background to the maritime observatory in the optional background reference; peach-gold sunrise ocean windows, warm directional key, cool-blue ocean fill and amber practical accents, with readable navy walls. Change the clothing surface to a fitted berry-mauve short-sleeve cropped crew-neck athletic T-shirt with broad slate-blue side panels and one ivory diagonal chest panel, in subtly ribbed matte stretch knit, matching the clothing reference. Preserve the exact source short sleeves, fitted crew neckline, cropped hem, visible midriff, high bun and dark high-waisted leggings. Do not convert the crop T-shirt into a vest or sports bra. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
-      "source": "assets/videos/case-good12-source.mp4",
-      "edited": "assets/videos/case-good12-edited.mp4",
-      "posterSource": "assets/images/case-good12-source.webp",
-      "posterEdited": "assets/images/case-good12-edited.webp",
-      "refs": [
-        {
-          "label": "Scene",
-          "image": "assets/images/case-good12-scene.webp"
-        },
-        {
-          "label": "Clothing",
-          "image": "assets/images/case-good12-clothing.webp"
-        }
-      ],
-      "width": 800,
-      "height": 448
-    },
-    {
       "id": "good13",
       "paperCase": "good13",
-      "title": "22",
+      "title": "23",
       "category": "Scene",
       "summary": "The conservatory kitchen in the optional background reference, with its arched garden windows, sage cabinetry and walnut island, with an ivory sleeveless tank top with broad rust-red and forest-green diagonal color panels and subtle matte cotton-rib texture.",
       "instruction": "Change the background to the conservatory kitchen in the optional background reference, with its arched garden windows, sage cabinetry and walnut island; richer golden window sunlight, broad stable foliage/window shadows, cool soft garden fill and warm amber pendants. Change the clothing surface to an ivory sleeveless tank top with broad rust-red and forest-green diagonal color panels and subtle matte cotton-rib texture. Preserve the original sleeveless tank silhouette, armholes, neckline, torso fit and hand-to-face motions. Do not add sleeves, an outer shirt or extra layers. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
@@ -448,7 +463,7 @@ window.FLOWCINE = {
     {
       "id": "good14",
       "paperCase": "good14",
-      "title": "23",
+      "title": "24",
       "category": "Scene · Clothing",
       "summary": "The glass garden pavilion in the optional background reference, with a pine-green short-sleeve crew-neck athletic T-shirt with muted ochre shoulder and sleeve panels, one small ivory diagonal insert and subtle matte sports-knit texture, matching the clothing reference.",
       "instruction": "Change the background to the glass garden pavilion in the optional background reference; richer low golden sunlight and broad diagonal floor shadows, warm leaf highlights and restrained cool jade skylight fill, with natural skin tones. Change the clothing surface to a pine-green short-sleeve crew-neck athletic T-shirt with muted ochre shoulder and sleeve panels, one small ivory diagonal insert and subtle matte sports-knit texture, matching the clothing reference. Preserve source short sleeve length, crew neckline, shirt silhouette, trousers, bald head and original arm-stretch motion. Do not add logos or change the neckline. Preserve the source person's facial identity, facial features, hairstyle, expression, body proportions, recorded gestures and motion, camera framing and person scale. Match natural skin and cloth illumination to the new environment while retaining identity, with slightly stronger directional warm/cool lighting than the first test round, not harsh silhouettes or saturated skin. Keep clothing cut, sleeve length and fit unchanged; change only its colors, surface pattern and restrained material texture. Keep environment, lighting, shadows and garment design temporally stable, with no flicker, moving lights or added people. Remove original titles, readable lettering and logos; no new text or watermark. Photorealistic live-action cinematic footage. Keep the input-frame body pose, hand positions, composition and subject scale unchanged.",
@@ -468,21 +483,6 @@ window.FLOWCINE = {
       ],
       "width": 800,
       "height": 448
-    },
-    {
-      "id": "lounge_suit",
-      "paperCase": "lounge_suit",
-      "title": "24",
-      "category": "Text-guided",
-      "summary": "An art-deco lounge and burgundy suit with sparse gold windowpane checks.",
-      "instruction": "Change the background to a quiet art-deco lounge at night with dark walnut walls, warm amber table lamps and tall windows with soft cool-blue moonlight. The edited clothing is a deep burgundy suit jacket with a widely spaced restrained gold windowpane check, the original white shirt and dark necktie. Keep the original suit lapels, sleeve length, cut and fit; the gold windowpane pattern is sparse and medium-scale, not tiny or densely repeated. Warm amber practical light shapes the face and suit, while soft cool-blue window light gives a gentle opposite-side rim; retain natural readable skin and rich but not crushed shadows. Preserve the source facial identity, ethnicity, facial features, hairstyle, expression, body proportions, pose, recorded motion, camera framing and person scale. Relight naturally to the target environment without changing facial identity. Keep the environment and light sources temporally stable, without flashing, flicker or changing time of day. No extra people, no readable text, no logos. Keep the first-frame body pose, composition and subject scale unchanged. Photorealistic cinematic image.",
-      "source": "assets/videos/case-lounge_suit-source.mp4",
-      "edited": "assets/videos/case-lounge_suit-edited.mp4",
-      "posterSource": "assets/images/case-lounge_suit-source.webp",
-      "posterEdited": "assets/images/case-lounge_suit-edited.webp",
-      "refs": [],
-      "width": 720,
-      "height": 480
     }
   ],
   "shots": [
