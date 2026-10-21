@@ -519,8 +519,8 @@
     },
     {
       "file": "assets/papers/flowcine.pdf",
-      "source": "manuscript/TPAMI/build/main.pdf",
-      "source_sha256": "37d4f31990c640ff29c68d02cb73617e26fc945c232769c16180ec70697f647c",
+      "source": "user-supplied/TPAMI_2026_FlowCine_gaowenshuo-3.pdf",
+      "source_sha256": "163f18867a07a9b4f9759b4d10353065046df6675455bd507bede4988d32a4df",
       "operation": "byte-for-byte copy"
     },
     {
@@ -2034,8 +2034,8 @@
     },
     {
       "file": "assets/images/paper-cover.webp",
-      "source": "manuscript/build/main.pdf",
-      "source_sha256": "37d4f31990c640ff29c68d02cb73617e26fc945c232769c16180ec70697f647c",
+      "source": "user-supplied/TPAMI_2026_FlowCine_gaowenshuo-3.pdf",
+      "source_sha256": "163f18867a07a9b4f9759b4d10353065046df6675455bd507bede4988d32a4df",
       "operation": "render first page at 72 dpi and encode as WebP; current paper title"
     }
   ],
