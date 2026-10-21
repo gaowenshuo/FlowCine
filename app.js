@@ -164,6 +164,10 @@
       this.updatePlayButton();
     }
     align() {
+      if (this.syncClock?.playing && this.syncClock.edited.duration > 0 && this.edited.duration > 0) {
+        const target = this.syncClock.edited.currentTime / this.syncClock.edited.duration * this.edited.duration;
+        if (Math.abs(this.edited.currentTime - target) > 0.07 && !this.edited.seeking) this.edited.currentTime = target;
+      }
       if (!(this.edited.duration > 0 && this.source.duration > 0)) return;
       const desired = (this.edited.currentTime / this.edited.duration) * this.source.duration;
       if (Math.abs(this.source.currentTime - desired) > 0.07 && !this.source.seeking) this.source.currentTime = desired;
@@ -578,6 +582,13 @@
 
   // Every paper comparison/ablation has a case selector and its complete variant set.
   const analysisPlayer = new Comparison($('#analysis-comparison'), { autoplay: true });
+  const analysisReference = new Comparison($('#analysis-reference'), { autoplay: true });
+  analysisPlayer.syncClock = analysisReference;
+  for (const [player, peer] of [[analysisReference, analysisPlayer], [analysisPlayer, analysisReference]]) {
+    player.playButton.addEventListener('click', () => player.intent ? peer.play() : peer.pause());
+    $('.restart', player.root).addEventListener('click', () => peer.seek(0));
+    player.timeline.addEventListener('input', () => peer.seek(Number(player.timeline.value) / 1000));
+  }
   let analysisType = 'comparison', analysisCase = data.comparison[0];
   function selectVariant(variant) {
     analysisPlayer.setClips(analysisCase.source, variant.video, {
@@ -585,6 +596,7 @@
       labelSource: 'Original', labelEdited: variant.label
     });
     for (const button of $$('button', $('#variant-options'))) button.setAttribute('aria-pressed', String(button.dataset.variant === variant.id));
+    $('#analysis-variant-label').textContent = `Original / ${variant.label}`;
     $('#analysis-title').textContent = `Original / ${variant.label}`;
     $('#analysis-description').textContent = `Example ${analysisCase.title}. Drag the divider to compare the original performance with ${variant.label}.`;
   }
@@ -595,14 +607,20 @@
       button.setAttribute('aria-selected', String(active)); button.tabIndex = active ? 0 : -1;
     }
     $('#analysis-comparison').setAttribute('aria-labelledby', `analysis-case-${example.id}`);
+    const full = example.variants[0];
+    analysisReference.setClips(example.source, full.video, {
+      posterSource: example.posterSource, posterEdited: full.poster,
+      labelSource: 'Original', labelEdited: 'FlowCine'
+    });
+    const alternatives = example.variants.slice(1);
     $('#variant-options').replaceChildren();
-    for (const variant of example.variants) {
+    for (const variant of alternatives) {
       const button = document.createElement('button'); button.dataset.variant = variant.id;
       button.textContent = variant.label; button.setAttribute('aria-pressed', 'false');
       button.addEventListener('click', () => selectVariant(variant)); $('#variant-options').append(button);
     }
     mountConveyor($('#variant-options'));
-    selectVariant(example.variants[0]);
+    selectVariant(alternatives[0]);
   }
   function setAnalysis(type) {
     analysisType = type;
