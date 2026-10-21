@@ -26,3 +26,6 @@
 .native-copy,.orbit-card{min-width:0}.conveyor-shell{width:100%;overflow:hidden}
 .example-picker p span,.analysis-case-picker p span{opacity:1}
 .resource-button-mask{font-size:11px}@media(max-width:520px){.resource-button-mask{font-size:10px}}
+/* Keep the large video viewers at 70% of their former width and height. */
+#main-comparison,#analysis-comparison{width:70%;margin-inline:auto}
+@media(max-width:600px){#main-comparison .comparison-toolbar,#analysis-comparison .comparison-toolbar{flex-wrap:wrap;height:auto;min-height:44px;padding:7px;gap:4px}#main-comparison .timeline,#analysis-comparison .timeline{order:2;flex:1 0 100%;width:100%;min-width:0}#main-comparison .time-display,#analysis-comparison .time-display{margin-left:auto}}
