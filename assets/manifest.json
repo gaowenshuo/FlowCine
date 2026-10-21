@@ -520,13 +520,13 @@
     {
       "file": "assets/papers/flowcine.pdf",
       "source": "manuscript/TPAMI/build/main.pdf",
-      "source_sha256": "393df1a8ceaae914e5bc33ec677cc0198118ee2253a8e4e273db0f9a46e62fed",
+      "source_sha256": "37d4f31990c640ff29c68d02cb73617e26fc945c232769c16180ec70697f647c",
       "operation": "byte-for-byte copy"
     },
     {
       "file": "assets/papers/flowcine-supplement.pdf",
       "source": "manuscript/TPAMI/build/supplement.pdf",
-      "source_sha256": "44012f415316cdd5671191138fcb1d1d51f412885459ce1ad3befe3a6028b9e1",
+      "source_sha256": "797018b16e67e0b45579e460095ed4f69b651334e4701fc4f41baa90d65a9eb5",
       "operation": "byte-for-byte copy"
     },
     {
@@ -2031,6 +2031,12 @@
       "source": "manuscript/datasets/portrait-ten/case9/clothing_reference.png",
       "source_sha256": "12aaab4ca9c3ccac9c613818cb9e9bd338a32d35ec57c0e1b601607c35424d38",
       "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/paper-cover.webp",
+      "source": "manuscript/build/main.pdf",
+      "source_sha256": "37d4f31990c640ff29c68d02cb73617e26fc945c232769c16180ec70697f647c",
+      "operation": "render first page at 72 dpi and encode as WebP; current paper title"
     }
   ],
   "source_roots": {
