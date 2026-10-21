@@ -1,0 +1,2133 @@
+{
+  "description": "Actual paper assets, prepared for a static project page. No generated experimental imagery.",
+  "files": [
+    {
+      "file": "assets/images/loft-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/recording_loft.png",
+      "source_sha256": "da74f61eff5b7b0c8a37d4e7a0cb9da5e30d276b97defdd58fa1260a7aa2ccb4",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/loft-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/rust_overshirt.png",
+      "source_sha256": "5e4ec3db113a3f30da6524f1ea8228226196a75679a7fe24d10a59973820dee2",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/loft-prop.webp",
+      "source": "manuscript/datasets/flowcine-108/references/seafoam_guitar.png",
+      "source_sha256": "40bb3481a8c535030d6d7fde02b904fa78bdebe8f62e8633fac054efb9f047a2",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/loft-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good10/cine108_r2_good10.mp4",
+      "source_sha256": "8d13534619e321ca390cbc7ff22391fd8bd13adaca6bf2661c5c484a0e6f46fc",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/loft-edited.mp4",
+      "source": "experiments/outputs/video_ablation/head/good10/output_video.mp4",
+      "source_sha256": "535759fa9fe23b3fe37990db2567588a03b3f4412462bce6e6da4227d7ae4016",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/sunroom-source.mp4",
+      "source": "manuscript/preprocessing/cine_light_sunroom_floral/cine_light_sunroom_floral.mp4",
+      "source_sha256": "14c7e4c5c1d7e0f2d8f8d65aa8210449896dabf49768b089443a6acec7b41af7",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/sunroom-edited.mp4",
+      "source": "experiments/outputs/video_ablation/head/sunroom_floral/output_video.mp4",
+      "source_sha256": "cfc768b0bf5e051d625f0fd3327786779925fdfc887c0e73b132fc9dac96729f",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/images/kitchen-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references/conservatory_kitchen.png",
+      "source_sha256": "24ad196da60b7bbccdb39f3f25b2c33eda38278296aae571f914ff93766c4a4e",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/kitchen-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references/teal_apron_outfit.png",
+      "source_sha256": "192a75f56b50e61818f820917337e514fd84217b8fa79d2a4ab263f0c63357b6",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/kitchen-prop.webp",
+      "source": "manuscript/datasets/flowcine-108/references/watermelon.png",
+      "source_sha256": "420e003946e7d0f940099be4d39ff18084703befad757452397dbd4c6fb2d3d4",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/kitchen-source.mp4",
+      "source": "manuscript/preprocessing/cine108_good7/cine108_good7.mp4",
+      "source_sha256": "0b494ef168709f2444275b427fe8bd57deb571493b1b3638d447cfb3d9a4d8b4",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/kitchen-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_good7/output_video.mp4",
+      "source_sha256": "e00c903a302d8c0d060360ec346961f3fc937eca554e6da30f32674e7bf104ef",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/workshop-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good2/cine108_r2_good2.mp4",
+      "source_sha256": "cf022d94e5ca0c286f9f710f9257f6edd18b1cb6cc9b6ce16aa1abd6897acc78",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/workshop-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good2/output_video.mp4",
+      "source_sha256": "aedda88a55dfad783e10f559915fd95974e552f52968265b23b3e4bc3a9ca615",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/images/bluehour-scene.webp",
+      "source": "manuscript/datasets/flowcine-lighting/references/bluehour_cafe.png",
+      "source_sha256": "1020fb5e127a2763187d5125e6fa1eeb31e877daea5bc3fef0fc91adada98f5b",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/bluehour-clothing.webp",
+      "source": "manuscript/datasets/flowcine-lighting/references/panel_biker.png",
+      "source_sha256": "38c44e0292e9be60f3aa785d8174ea79515a0a2aae9bc0e2b9307c44e983974d",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/bluehour-source.mp4",
+      "source": "manuscript/preprocessing/cine_light_bluehour_jacket/cine_light_bluehour_jacket.mp4",
+      "source_sha256": "7c1b6c67b1fd1ddee23c0668b5b4a5e21d9336db61c41f8840def8433653c8ed",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/bluehour-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine_light_bluehour_jacket/output_video.mp4",
+      "source_sha256": "ebccdab3a64a278cc123a01eb76215f68ddf8aa3119a79bf2e45adea58aafe92",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-1-source.mp4",
+      "source": "manuscript/preprocessing/dress_series_01/dress_series_01.mp4",
+      "source_sha256": "220c5b08de93a7d0ffc90608cb82d2bcb2867bca19546c1b741998910f3666d8",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-1-edited.mp4",
+      "source": "manuscript/results/flow-edit-dress_series_01/output_video.mp4",
+      "source_sha256": "3cbf0517bba783ca1cde09e0288b7c009831dc1ea49067260855e4a98c376904",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-3-source.mp4",
+      "source": "manuscript/preprocessing/dress_series_03/dress_series_03.mp4",
+      "source_sha256": "ba7b9772fa5f2ce8521fdc40902f6ce15b593727f703f3cd690ebb8c8c45b4e5",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-3-edited.mp4",
+      "source": "manuscript/results/flow-edit-dress_series_03/output_video.mp4",
+      "source_sha256": "7640e3fe7de7eeeeb6420317d4a3ea72107653160e3c8e8217d6394a5c826198",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-5-source.mp4",
+      "source": "manuscript/preprocessing/dress_series_05/dress_series_05.mp4",
+      "source_sha256": "93d882bf5cc738d75c702fdbd14dc9423b8f07c6dc01d87c3b3ceb834389fb94",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-5-edited.mp4",
+      "source": "manuscript/results/flow-edit-dress_series_05/output_video.mp4",
+      "source_sha256": "7a990e0922620727f2bd9e68830deb72ddfa1b5bbcedf4ae0c95997ff54ac11a",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-6-source.mp4",
+      "source": "manuscript/preprocessing/dress_series_06/dress_series_06.mp4",
+      "source_sha256": "7805abe48b764906eb12ed620546440ee275c596acc8524557c4726c72bd8b07",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/videos/shot-6-edited.mp4",
+      "source": "manuscript/results/flow-edit-dress_series_06/output_video.mp4",
+      "source_sha256": "99f5811b6387d3b7c328a439bb55229de0162f2583ee4b60f163de200a01a915",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/images/series-scene.webp",
+      "source": "manuscript/datasets/view.png",
+      "source_sha256": "0cb4e6bae0d835dc207d84f73edb2b70ccbca4285f4dcdc803ddeaa0a4d9b2c7",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/series-clothing.webp",
+      "source": "manuscript/datasets/women-shirt.png",
+      "source_sha256": "bb242e987caee73a23feee1556bc440edec49c32fb04cf905d6b2a05b92d39ee",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/series-prop.webp",
+      "source": "manuscript/datasets/apple.png",
+      "source_sha256": "cc263798a5e4f91139fcfeff6025c17ce802cafbdd736d616a9cf372b04e4641",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/asset-0.mp4",
+      "source": "experiments/outputs/native_ablation/head/case0/edited_orbit.mp4",
+      "source_sha256": "435e02a01085fe279ba9245bbfc34df1acc1acf091fbe667f59eec9d1e2c7991",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/images/asset-0-source.webp",
+      "source": "experiments/outputs/native_ablation/head/case0/source_front.png",
+      "source_sha256": "a053e487ede244250fc931703487ff57d5cda0d6bd464602907f6cafe45624d0",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/asset-0-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case0/clothing_reference.png",
+      "source_sha256": "87d529b8651e20933fd8cc87ebc9c268515b8d4cc3b85d0c1f3a709b1afab619",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/asset-2.mp4",
+      "source": "experiments/outputs/native_ablation/head/case2/edited_orbit.mp4",
+      "source_sha256": "691a23a8b6a4267da514146180814b0aa5fc978ffdaf046d41c140bc09bd963c",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/images/asset-2-source.webp",
+      "source": "experiments/outputs/native_ablation/head/case2/source_front.png",
+      "source_sha256": "8b243423401fd5cfaa167e2d563fca81505c0805003cf147a392d83abd43be8e",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/asset-2-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case2/clothing_reference.png",
+      "source_sha256": "af88cd23a1b748500dd48d92889f9a0d35baf4ad5f975448b685b61b206eb7f1",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/asset-7.mp4",
+      "source": "experiments/outputs/native_ablation/head/case7/edited_orbit.mp4",
+      "source_sha256": "e032636dad32ccd86c0a423f4b4531b58554623c6b3148820be25b5ddd9de0ec",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/images/asset-7-source.webp",
+      "source": "experiments/outputs/native_ablation/head/case7/source_front.png",
+      "source_sha256": "cbc1865bfefc4f4ea800e6a2e25e001cca192a6edcb5e1b9cab248ffdbebb182",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/asset-7-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case7/clothing_reference.png",
+      "source_sha256": "b61944c7b069118909b29271e7879ee81630211e33873a3bab15393f1e912bd0",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/comparison-kiwi-text.mp4",
+      "source": "experiments/outputs/video_baselines/kiwi-text/good2/output_video.mp4",
+      "source_sha256": "b0789123a0dd1bf81f5b4412e0d79a6f5dddedba40418f7121ecf0cf91e2ddef",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/comparison-lucy-1.1.mp4",
+      "source": "experiments/outputs/video_baselines/lucy-1.1/good2/output_video.mp4",
+      "source_sha256": "42ff6edb13d17ab26bfdaef6dc13893c1456cab8bc18f0a8af4bbc1a7152d51d",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/comparison-univideo-text.mp4",
+      "source": "experiments/outputs/video_baselines/univideo-text/good2/output_video.mp4",
+      "source_sha256": "3ff1ed8382b1cb53ff90b020b18fd648e7b55a479d1ded4f8ac1bc32d8866b17",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/comparison-ditto.mp4",
+      "source": "experiments/outputs/video_baselines/ditto/good2/output_video.mp4",
+      "source_sha256": "935a650f7a53eb38e02d1768eb2ee236f9c937e6ab69602e15a4fc7a71405f01",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/comparison-omnivideo2-1.3b.mp4",
+      "source": "experiments/outputs/video_baselines/omnivideo2-1.3b/good2/output_video.mp4",
+      "source_sha256": "9d2de658be8f353bfc12019881a461164bfc8db1c2b25acf0e38a027498e5e16",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/ablation-no_residual.mp4",
+      "source": "experiments/outputs/video_ablation/no_residual/good10/output_video.mp4",
+      "source_sha256": "222476345dc5cee56eefd6fe5125b6305b8cce9657470a473b915de737e58ea4",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/ablation-full_video_residual.mp4",
+      "source": "experiments/outputs/video_ablation/full_video_residual/good10/output_video.mp4",
+      "source_sha256": "590c06e0c3d04497651d79c43a0810c7a309d89352998f300cd77b34094290b7",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/ablation-no_transfer.mp4",
+      "source": "experiments/outputs/video_ablation/no_transfer/good10/output_video.mp4",
+      "source_sha256": "c277a7a92b3be092cc63cddaf8e751e04e92827d068f9ecab390f6b3baf4ff72",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/images/control-regional_source.webp",
+      "source": "manuscript/TPAMI/figures/flowcine_latest/regional_source.png",
+      "source_sha256": "7e8a7796ef1a21e1ea7f077ea492109a7c6552274de79a58e076bcc618c4e99f",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/control-person_mask.webp",
+      "source": "manuscript/TPAMI/figures/flowcine_latest/person_mask.png",
+      "source_sha256": "afaac0e36a51aca32af09726ab6d3be67dcb942b2fffdd1a0ab8f908cd0c1de0",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/control-head_mask.webp",
+      "source": "manuscript/TPAMI/figures/flowcine_latest/head_mask.png",
+      "source_sha256": "19f102e6305f49a9a1e09c60991d50b841a83341eb314dc47a6a0eb00929fd78",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/images/control-regional_control.webp",
+      "source": "manuscript/TPAMI/figures/flowcine_latest/regional_control.png",
+      "source_sha256": "fd80e3bcd91ccc1b8b79fcf393b3d94d4cb50f2e23fe28f85c1f813bc47919b7",
+      "operation": "aspect-preserving web-size conversion to WebP; no content edits"
+    },
+    {
+      "file": "assets/videos/limitation.mp4",
+      "source": "manuscript/results/flow-edit-cine_limit_boxing_arena/output_video.mp4",
+      "source_sha256": "d9acd9a614e65bc7b0aa791f08e7c5c606cc206826e64f249734e6e121b34e1d",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encode; full frame preserved, no crop or content edits"
+    },
+    {
+      "file": "assets/papers/flowcine.pdf",
+      "source": "manuscript/TPAMI/build/main.pdf",
+      "source_sha256": "393df1a8ceaae914e5bc33ec677cc0198118ee2253a8e4e273db0f9a46e62fed",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "file": "assets/papers/flowcine-supplement.pdf",
+      "source": "manuscript/TPAMI/build/supplement.pdf",
+      "source_sha256": "44012f415316cdd5671191138fcb1d1d51f412885459ce1ad3befe3a6028b9e1",
+      "operation": "byte-for-byte copy"
+    },
+    {
+      "file": "assets/images/case-good10-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/recording_loft.png",
+      "source_sha256": "da74f61eff5b7b0c8a37d4e7a0cb9da5e30d276b97defdd58fa1260a7aa2ccb4",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good10-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/rust_overshirt.png",
+      "source_sha256": "5e4ec3db113a3f30da6524f1ea8228226196a75679a7fe24d10a59973820dee2",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good10-prop.webp",
+      "source": "manuscript/datasets/flowcine-108/references/seafoam_guitar.png",
+      "source_sha256": "40bb3481a8c535030d6d7fde02b904fa78bdebe8f62e8633fac054efb9f047a2",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good10-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good10/output_video.mp4",
+      "source_sha256": "535759fa9fe23b3fe37990db2567588a03b3f4412462bce6e6da4227d7ae4016",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-sunroom_floral-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine_light_sunroom_floral/output_video.mp4",
+      "source_sha256": "cfc768b0bf5e051d625f0fd3327786779925fdfc887c0e73b132fc9dac96729f",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-bg_new2-scene.webp",
+      "source": "manuscript/datasets/flowcine-single/references/coastal.png",
+      "source_sha256": "66882f69824c12fb106ae6807497ef77e9a68a56e433983b36288fa3ea86e8e3",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-bg_new2-source.mp4",
+      "source": "manuscript/preprocessing/cine_bg_new2/cine_bg_new2.mp4",
+      "source_sha256": "8b77012265c22701c884877dfdc705e566c73a9be470f3480529e39313fd6dbc",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-bg_new2-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine_bg_new2/output_video.mp4",
+      "source_sha256": "0afa442c56179b70d258cfd1d25104986e39e9a4bbefba7b121c1443bbdbe731",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good7_selected-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references/conservatory_kitchen.png",
+      "source_sha256": "24ad196da60b7bbccdb39f3f25b2c33eda38278296aae571f914ff93766c4a4e",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good7_selected-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references/teal_apron_outfit.png",
+      "source_sha256": "192a75f56b50e61818f820917337e514fd84217b8fa79d2a4ab263f0c63357b6",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good7_selected-prop.webp",
+      "source": "manuscript/datasets/flowcine-108/references/watermelon.png",
+      "source_sha256": "420e003946e7d0f940099be4d39ff18084703befad757452397dbd4c6fb2d3d4",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-bluehour_jacket-scene.webp",
+      "source": "manuscript/datasets/flowcine-lighting/references/bluehour_cafe.png",
+      "source_sha256": "1020fb5e127a2763187d5125e6fa1eeb31e877daea5bc3fef0fc91adada98f5b",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-bluehour_jacket-clothing.webp",
+      "source": "manuscript/datasets/flowcine-lighting/references/panel_biker.png",
+      "source_sha256": "38c44e0292e9be60f3aa785d8174ea79515a0a2aae9bc0e2b9307c44e983974d",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-text_man5-source.mp4",
+      "source": "manuscript/preprocessing/cine_text_man5/cine_text_man5.mp4",
+      "source_sha256": "295f27a38d253f9cb3606dc0febb2c2c1b0899fe477fd4838c84f54ee70eb393",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-text_man5-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine_text_man5/output_video.mp4",
+      "source_sha256": "9c6a7daaf35107d17ca9553a1ee7143381b61c9ea9e20f60ace7981980522306",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-text_woman2-source.mp4",
+      "source": "manuscript/preprocessing/cine_text_woman2/cine_text_woman2.mp4",
+      "source_sha256": "14c7e4c5c1d7e0f2d8f8d65aa8210449896dabf49768b089443a6acec7b41af7",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-text_woman2-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine_text_woman2/output_video.mp4",
+      "source_sha256": "bf587a817b42b5216ea67fe2f1c580ca1d1a04d0f53d84e564cdf59116ec3e9b",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-bgcloth_dancing2-scene.webp",
+      "source": "manuscript/datasets/flowcine-single/references/coastal.png",
+      "source_sha256": "66882f69824c12fb106ae6807497ef77e9a68a56e433983b36288fa3ea86e8e3",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-bgcloth_dancing2-clothing.webp",
+      "source": "manuscript/datasets/flowcine-single/references/sage_jacket.png",
+      "source_sha256": "478349b4f85543b0b1016966dd06ff65c29cdea715d0ac77ce1e4e7a40fced50",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-bgcloth_dancing2-source.mp4",
+      "source": "manuscript/preprocessing/cine_bgcloth_dancing2/cine_bgcloth_dancing2.mp4",
+      "source_sha256": "7c1b6c67b1fd1ddee23c0668b5b4a5e21d9336db61c41f8840def8433653c8ed",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-bgcloth_dancing2-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine_bgcloth_dancing2/output_video.mp4",
+      "source_sha256": "3502b5ac9ed1c4c46940158999355faac0d5268e27472133aa58951dbb7c483c",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-man_ic-scene.webp",
+      "source": "manuscript/datasets/view.png",
+      "source_sha256": "0cb4e6bae0d835dc207d84f73edb2b70ccbca4285f4dcdc803ddeaa0a4d9b2c7",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-man_ic-clothing.webp",
+      "source": "manuscript/datasets/shirt.png",
+      "source_sha256": "53e26bb6ee491471fb078be90a97339efe70ce59872e48c206b3ec43326220b8",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-man_ic-source.mp4",
+      "source": "manuscript/preprocessing/man_ic/man_ic.mp4",
+      "source_sha256": "fa10e19d06cb0b5ac88fe202d9b5350035d5c346f66a730d4736f07c08f4e233",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-man_ic-edited.mp4",
+      "source": "manuscript/results/flow-edit-man_ic/output_video.mp4",
+      "source_sha256": "73ddc803e41a30b788c62dc09f5cab14e3dc89bd10c2ed36555a046992dc922f",
+      "source_stream": {
+        "width": 960,
+        "height": 544,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good15-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/museum_rooftop.png",
+      "source_sha256": "4c7588f3b3ddf04f3bd69e8123b2a8a812b8a19cd5efb93654075575c1bcd2ee",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good15-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/ivory_teal_shirt.png",
+      "source_sha256": "915e7616cb6b0200b61a83360f744ad3a1add4aa617c33efd9892d9bfd8413ec",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good15-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good15/cine108_r2_good15.mp4",
+      "source_sha256": "c8c01e69b6efc04f71aea02f5bca086fe8bfefe2780fe529491128e848bf5616",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good15-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good15/output_video.mp4",
+      "source_sha256": "8725594fa2add58dc27776d56d1bec3ec09683901ad8e203e98c48cf689a1956",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good1-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good1/cine108_r2_good1.mp4",
+      "source_sha256": "c0221b4e05e9b3fb83d6eeab176d2735e6231e51f8c9e165dcdc4c80b0764ad3",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good1-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good1/output_video.mp4",
+      "source_sha256": "de16631a02b3bada44e89f9fefe2f002d4452cdabe9ebac50d2dc368b47eb0f3",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good3-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good3/cine108_r2_good3.mp4",
+      "source_sha256": "4962f94ff419d3838b2c2c740476908481f510d959560283474db42af2f23f4d",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good3-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good3/output_video.mp4",
+      "source_sha256": "334ee1218cc24cc4ee29511a56f1f3eb667103011c18b6cf399f05df2aae90ec",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good4-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good4/cine108_r2_good4.mp4",
+      "source_sha256": "89f9bf18ac37e184608acb48b4a11c580c173090784962ef30b7953537e74477",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good4-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good4/output_video.mp4",
+      "source_sha256": "26af89024fb02124f164a29894b73983a847e4ea7af4ec3f5484df0c24e560f5",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good5-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good5/cine108_r2_good5.mp4",
+      "source_sha256": "31dbb7b8a13b7f4a923ebe0fe6c0d4ca6be4bbaf0c9f22b83b3f5c406aa65545",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good5-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good5/output_video.mp4",
+      "source_sha256": "68ae4de428e1b87a27eaccdf4427516b866de3f3eeb4c1f90152f59b2ea20e44",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good6-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/maritime_observatory.png",
+      "source_sha256": "d34241eeb68695a11e8565fb8c8b50bc8582609c2eee02c76b34074bb07aecbf",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good6-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good6/cine108_r2_good6.mp4",
+      "source_sha256": "8d045a08592b21271f9d528916a48f42a5dc892718331bc20a15798ee9031bf3",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good6-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good6/output_video.mp4",
+      "source_sha256": "8ebdbbf3c0b474d9438dee18aaf2b49072bd691a09d3cca35f2a274351b0947e",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good7-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/conservatory_kitchen.png",
+      "source_sha256": "ad0fde3a2d39957b473aa2c6a9d7e589517c265d87514448cf142093b77a9af5",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good7-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/teal_apron_outfit.png",
+      "source_sha256": "12c8b2614ba24ca12ff0707e0b4ae5bb2ce6e0d4e2f999c777bd2ca3b719c997",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good7-prop.webp",
+      "source": "manuscript/datasets/flowcine-108/references/watermelon.png",
+      "source_sha256": "420e003946e7d0f940099be4d39ff18084703befad757452397dbd4c6fb2d3d4",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good7-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good7/cine108_r2_good7.mp4",
+      "source_sha256": "0b494ef168709f2444275b427fe8bd57deb571493b1b3638d447cfb3d9a4d8b4",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good7-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good7/output_video.mp4",
+      "source_sha256": "e96bd453c04742c264afd9f49bb70e8b54a24138a016063e20b3982f202df06f",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good8-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/recording_loft.png",
+      "source_sha256": "da74f61eff5b7b0c8a37d4e7a0cb9da5e30d276b97defdd58fa1260a7aa2ccb4",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good8-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good8/cine108_r2_good8.mp4",
+      "source_sha256": "a3807f266b27a593b8150a4ab2c2decbd68e94c5b1572f701e76e638ee350da0",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good8-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good8/output_video.mp4",
+      "source_sha256": "563d930e6aa4017e79c81b94a96f99f4055ddf4ed5776fe07e78b2c6f4156501",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good9-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/glass_pavilion.png",
+      "source_sha256": "8d5559d7c95a85bbec3f1d04f31cd2f00bda023c09c7faba75125e48d6157b28",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good9-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good9/cine108_r2_good9.mp4",
+      "source_sha256": "af710a967cff594e417594e40a2e1c0bc6300c5003328be49133ddbd43f0aa93",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good9-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good9/output_video.mp4",
+      "source_sha256": "03da54e8beae6a035e274942131e4164bbd0b695dc3384f11ca8fed7d71e2c8d",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good11-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/museum_rooftop.png",
+      "source_sha256": "4c7588f3b3ddf04f3bd69e8123b2a8a812b8a19cd5efb93654075575c1bcd2ee",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good11-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good11/cine108_r2_good11.mp4",
+      "source_sha256": "b7d2d8ceb84785b84ea8578b98da8b739d61d76af69766a2be441d1d4469bfe7",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good11-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good11/output_video.mp4",
+      "source_sha256": "8b65e25cb6c9f32e2d5c4b9f6e9b9eb68b5a4044abc621ec9e6cebab9ca05cf0",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good12-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/maritime_observatory.png",
+      "source_sha256": "d34241eeb68695a11e8565fb8c8b50bc8582609c2eee02c76b34074bb07aecbf",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good12-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/teal_sport_crop.png",
+      "source_sha256": "448be06d6f042bdef41c99a1d72a0fb8020525b51047e8ff49bce401e7907306",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good12-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good12/cine108_r2_good12.mp4",
+      "source_sha256": "e273c313d1fad121511d9142468aae3d4c2361a055fd0c4dbcb128e107579adf",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good12-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good12/output_video.mp4",
+      "source_sha256": "5279de5af0aa7615433d7082d796a264c7f95e8c1412617ad8811d77631ff911",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good13-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/conservatory_kitchen.png",
+      "source_sha256": "ad0fde3a2d39957b473aa2c6a9d7e589517c265d87514448cf142093b77a9af5",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good13-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good13/cine108_r2_good13.mp4",
+      "source_sha256": "8e582b5fd7b49a3cd014fe09e5c7da2e85a0768dfc27f24e8e7933342ec233fb",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good13-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good13/output_video.mp4",
+      "source_sha256": "c8d6c0bed0454e3930fa3fbf53ee36590a4f0ba3d266c71e35710a7fdafd2099",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/case-good14-scene.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/glass_pavilion.png",
+      "source_sha256": "8d5559d7c95a85bbec3f1d04f31cd2f00bda023c09c7faba75125e48d6157b28",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/case-good14-clothing.webp",
+      "source": "manuscript/datasets/flowcine-108/references-r2/cobalt_sport_tee.png",
+      "source_sha256": "a70626df6f02a4eafd4cbf901a6c8fb5abf9219ebfa3e5599789d26bc436528d",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/case-good14-source.mp4",
+      "source": "manuscript/preprocessing/cine108_r2_good14/cine108_r2_good14.mp4",
+      "source_sha256": "e7b38b14fc51cf403924d36f7e911d9865b894800bd7b77bb0873db6cd587cd1",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-good14-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine108_r2_good14/output_video.mp4",
+      "source_sha256": "c62106cd4fe839af0fa521e1a87f31ed6382973bcc9b925edbef90ef85b0a6b1",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-lounge_suit-source.mp4",
+      "source": "manuscript/preprocessing/cine_light_lounge_suit/cine_light_lounge_suit.mp4",
+      "source_sha256": "295f27a38d253f9cb3606dc0febb2c2c1b0899fe477fd4838c84f54ee70eb393",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/case-lounge_suit-edited.mp4",
+      "source": "manuscript/results/flow-edit-cine_light_lounge_suit/output_video.mp4",
+      "source_sha256": "433635414eb5f28e2fdcd0e11044fec4a801de4f1dcba266d3a81bc6cf762a53",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/compare-good5-kiwi-text.mp4",
+      "source": "experiments/outputs/video_baselines/kiwi-text/qual_good5/output_video.mp4",
+      "source_sha256": "9e7fdd68a3a3a0f3ce1253f827e52d678808b544c44524843412dc11a4636788",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good5-lucy-1.1.mp4",
+      "source": "experiments/outputs/video_baselines/lucy-1.1/qual_good5/output_video.mp4",
+      "source_sha256": "e9d1423165800c7b1b456b039e5373f84ea4be3095315b3b7c828b060770b103",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good5-univideo-text.mp4",
+      "source": "experiments/outputs/video_baselines/univideo-text/qual_good5/output_video.mp4",
+      "source_sha256": "99e712ba1b2fa0093f2aa45bc6a1e0d37025fae05931136004f19a8121dfc094",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good5-ditto.mp4",
+      "source": "experiments/outputs/video_baselines/ditto/qual_good5/output_video.mp4",
+      "source_sha256": "cccbf39600a96871ce0aca637e6d79c188e4f1b6e2641fe896ba688f87a48088",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good5-omnivideo2-1.3b.mp4",
+      "source": "experiments/outputs/video_baselines/omnivideo2-1.3b/qual_good5/output_video.mp4",
+      "source_sha256": "b0d59eaa8c2707d65e1d86934e96fbe8102e3df49f3258ceb9decfa868f82ad4",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-lounge_suit-kiwi-text.mp4",
+      "source": "experiments/outputs/video_baselines/kiwi-text/qual_lounge_suit/output_video.mp4",
+      "source_sha256": "2a151f7c08f8c43beab579b13c854d051cfb93888afdac7d2193e9d9dd326fd5",
+      "source_stream": {
+        "width": 736,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 8 fps"
+    },
+    {
+      "file": "assets/videos/compare-lounge_suit-lucy-1.1.mp4",
+      "source": "experiments/outputs/video_baselines/lucy-1.1/qual_lounge_suit/output_video.mp4",
+      "source_sha256": "20d063f65152163921b460e63e7659434ddff8a8addc767cc9b0c474407a97a3",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 8 fps"
+    },
+    {
+      "file": "assets/videos/compare-lounge_suit-univideo-text.mp4",
+      "source": "experiments/outputs/video_baselines/univideo-text/qual_lounge_suit/output_video.mp4",
+      "source_sha256": "807eff2a17a4d71b14b0bb67c1749982c0f2010bb2b31e03006ca5d6f9e037c6",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 8 fps"
+    },
+    {
+      "file": "assets/videos/compare-lounge_suit-ditto.mp4",
+      "source": "experiments/outputs/video_baselines/ditto/qual_lounge_suit/output_video.mp4",
+      "source_sha256": "a458f22c92ca9419f5ce419f7a89b357b3564aba4a2c04bfdd300a2f68c0d3fc",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 8 fps"
+    },
+    {
+      "file": "assets/videos/compare-lounge_suit-omnivideo2-1.3b.mp4",
+      "source": "experiments/outputs/video_baselines/omnivideo2-1.3b/qual_lounge_suit/output_video.mp4",
+      "source_sha256": "f34851ff53be0eb4e65d3c3b7c0d513e750e0442a195c301b38b8c7028c277fc",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 8 fps"
+    },
+    {
+      "file": "assets/videos/compare-good7_selected-kiwi-text.mp4",
+      "source": "experiments/outputs/video_baselines/kiwi-text/qual_good7_selected/output_video.mp4",
+      "source_sha256": "56b33371b93c5d8d8add06572ce456d26061d55cedf2f48cbe7cfe9ca0a4868d",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good7_selected-lucy-1.1.mp4",
+      "source": "experiments/outputs/video_baselines/lucy-1.1/qual_good7_selected/output_video.mp4",
+      "source_sha256": "7eefa01014cf7e93d14d3956de81d85feeb944c0694208d8f6fb564846589089",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good7_selected-univideo-text.mp4",
+      "source": "experiments/outputs/video_baselines/univideo-text/qual_good7_selected/output_video.mp4",
+      "source_sha256": "36af984ad36457226adcc84e04c365d7d4f865e215c475bf56e403bf172051ce",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good7_selected-ditto.mp4",
+      "source": "experiments/outputs/video_baselines/ditto/qual_good7_selected/output_video.mp4",
+      "source_sha256": "eb53ba9f06c970b1e13f0ed6c47eaa0e1e4da3baf9a55048190c5297d62ad340",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/compare-good7_selected-omnivideo2-1.3b.mp4",
+      "source": "experiments/outputs/video_baselines/omnivideo2-1.3b/qual_good7_selected/output_video.mp4",
+      "source_sha256": "e41e8cca72614e08b1f5e00f2432d9925e23c691993f3fd8c4a5b41c83c3a654",
+      "source_stream": {
+        "width": 800,
+        "height": 448,
+        "r_frame_rate": "15/1",
+        "duration": "3.266667",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes; playback retimed by frame index to 15 fps"
+    },
+    {
+      "file": "assets/videos/ablation-sunroom_floral-no_residual.mp4",
+      "source": "experiments/outputs/video_ablation/no_residual/sunroom_floral/output_video.mp4",
+      "source_sha256": "18afb2ff70e0d2fe29aadced15a2546ce912205816a728471029354eec8aa58d",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/ablation-sunroom_floral-full_video_residual.mp4",
+      "source": "experiments/outputs/video_ablation/full_video_residual/sunroom_floral/output_video.mp4",
+      "source_sha256": "7743b285d0e4ebdabd72bb0cc7d73652fa2bc4234b821bb7730b00159926f40d",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/ablation-sunroom_floral-no_transfer.mp4",
+      "source": "experiments/outputs/video_ablation/no_transfer/sunroom_floral/output_video.mp4",
+      "source_sha256": "7f74eb95619e336ddf27d5720b7bf1c20b3921c1a091b1261d357d4605a71fb5",
+      "source_stream": {
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-0-source.mp4",
+      "source": "native-runs/case0/input/source.glb",
+      "source_sha256": "56196e357ea7d519a49ad7b2fb47f1add6648344ba13de89198f2519064d66fe",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case0/input/source.glb",
+        "mesh_sha256": "56196e357ea7d519a49ad7b2fb47f1add6648344ba13de89198f2519064d66fe",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-0-edited.mp4",
+      "source": "native-runs/case0/edited_orbit.mp4",
+      "source_sha256": "d85aa4fb3e2affdd71abdd27766bae621e6764fb72143e86ec21515e63706fd5",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-0-no_residual.mp4",
+      "source": "experiments/outputs/native_ablation/no_residual/case0/edited_orbit.mp4",
+      "source_sha256": "6241dfa417575cfdd79a25a76d370f5bc43a15bd5c74d84d95db36855f1adbf7",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-0-full_residual.mp4",
+      "source": "experiments/outputs/native_ablation/full_residual/case0/edited_orbit.mp4",
+      "source_sha256": "07e67fd8b6a5061dc66531cb61302f3bcf9b0902bfbddd6d591da03f0ce2cf15",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-0-no_transfer.mp4",
+      "source": "experiments/outputs/native_ablation/no_transfer/case0/edited_orbit.mp4",
+      "source_sha256": "fdd21b0934703c47f31cbde661b5d4e5861b47a76a8f870f3d22fa9fdab7c921",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-0-front.webp",
+      "source": "native-runs/case0/source_front.png",
+      "source_sha256": "a053e487ede244250fc931703487ff57d5cda0d6bd464602907f6cafe45624d0",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-0-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case0/clothing_reference.png",
+      "source_sha256": "87d529b8651e20933fd8cc87ebc9c268515b8d4cc3b85d0c1f3a709b1afab619",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-1-source.mp4",
+      "source": "native-runs/case1/input/source.glb",
+      "source_sha256": "85b3d8fcd913669de3df8e44ce969296f5386468bb17ecd081e933e425308597",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case1/input/source.glb",
+        "mesh_sha256": "85b3d8fcd913669de3df8e44ce969296f5386468bb17ecd081e933e425308597",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-1-edited.mp4",
+      "source": "native-runs/case1/edited_orbit.mp4",
+      "source_sha256": "85081126295deebe04adf55d14988bbf7b72384d9a371d948151177589a86e20",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-1-front.webp",
+      "source": "native-runs/case1/source_front.png",
+      "source_sha256": "3267a4b2110f123ea7ab71b0e17cf26cb07dbdbe82bc4e800fb67c3dfad87dba",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-1-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case1/clothing_reference.png",
+      "source_sha256": "fd2c6961e1a54391ca1c275707c08c97ad395ceb1e0b8d719ae116df9a85c890",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-2-source.mp4",
+      "source": "native-runs/case2/input/source.glb",
+      "source_sha256": "52e20cdca9d5c015859021929770e5719c0a7b79421643b5e3942b803411e647",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case2/input/source.glb",
+        "mesh_sha256": "52e20cdca9d5c015859021929770e5719c0a7b79421643b5e3942b803411e647",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-2-edited.mp4",
+      "source": "native-runs/case2/edited_orbit.mp4",
+      "source_sha256": "46f0dd75829310c0bcd32072d39c4034a8867fc3dcc8b3983e64208a062304f5",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-2-no_residual.mp4",
+      "source": "experiments/outputs/native_ablation/no_residual/case2/edited_orbit.mp4",
+      "source_sha256": "9c714ca018a6cf5f3485dc4b1937b5d7ec5fa6e05371185934563e53b544a83b",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-2-full_residual.mp4",
+      "source": "experiments/outputs/native_ablation/full_residual/case2/edited_orbit.mp4",
+      "source_sha256": "bb51a726fb655d5b61c0caa4d24e6c66799dbccd83990dce63953b9220ef15b7",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-2-no_transfer.mp4",
+      "source": "experiments/outputs/native_ablation/no_transfer/case2/edited_orbit.mp4",
+      "source_sha256": "d73c124c3c39c7653137b0012315ad37a83f88309c903106acc756796651d1f2",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-2-front.webp",
+      "source": "native-runs/case2/source_front.png",
+      "source_sha256": "8b243423401fd5cfaa167e2d563fca81505c0805003cf147a392d83abd43be8e",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-2-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case2/clothing_reference.png",
+      "source_sha256": "af88cd23a1b748500dd48d92889f9a0d35baf4ad5f975448b685b61b206eb7f1",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-3-source.mp4",
+      "source": "native-runs/case3/input/source.glb",
+      "source_sha256": "83a6804e810cf64201154167a20b8b3442af54f5505eeb8a4ecd6cf59c4039ae",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case3/input/source.glb",
+        "mesh_sha256": "83a6804e810cf64201154167a20b8b3442af54f5505eeb8a4ecd6cf59c4039ae",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-3-edited.mp4",
+      "source": "native-runs/case3/edited_orbit.mp4",
+      "source_sha256": "d266dd9d430c7d6d2cde9e0cf11975ffd2167babe9788375cab75891d2f4f16b",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-3-front.webp",
+      "source": "native-runs/case3/source_front.png",
+      "source_sha256": "b8e1d92ed0b2e20949170ee573251dd82e06a8ddc26d61bb53ad72eed8ac09f1",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-3-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case3/clothing_reference.png",
+      "source_sha256": "748557f16ada059911ae24486ea5fc89672ba1af392c8e35a3b311ee38691cc0",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-4-source.mp4",
+      "source": "native-runs/case4/input/source.glb",
+      "source_sha256": "431a88bca3448eed399a94d594ccca90119271f63608440963c3572035240d80",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case4/input/source.glb",
+        "mesh_sha256": "431a88bca3448eed399a94d594ccca90119271f63608440963c3572035240d80",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-4-edited.mp4",
+      "source": "native-runs/case4/edited_orbit.mp4",
+      "source_sha256": "99c61d2eaa90fa5e76c8f5b6c63e0e9c60e6bcb265d33452271b8f2a5ba750b7",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-4-front.webp",
+      "source": "native-runs/case4/source_front.png",
+      "source_sha256": "615f272e17cba6b1b2b634d4ee49243f90f0cd0b782777de9c2fbe841f148941",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-4-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case4/clothing_reference.png",
+      "source_sha256": "311c9bd8216cf8de5a1593ec4a6514666d0a31e6b16f7e6b14c333ffbb1a9b10",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-5-source.mp4",
+      "source": "native-runs/case5/input/source.glb",
+      "source_sha256": "ab8dc9f50b343b3e9cb017c8e9483a2c7bda00d38b6cc96c9430a0aa642cc9e4",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case5/input/source.glb",
+        "mesh_sha256": "ab8dc9f50b343b3e9cb017c8e9483a2c7bda00d38b6cc96c9430a0aa642cc9e4",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-5-edited.mp4",
+      "source": "native-runs/case5/edited_orbit.mp4",
+      "source_sha256": "4e995175c8bb2365909d25afc75e05ce47c941f2291278512cb518d00c0440b0",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-5-front.webp",
+      "source": "native-runs/case5/source_front.png",
+      "source_sha256": "006b0ad6af1fdd1485fcb6ef1549e3625baf613af348f0232c6ef3373edb3a55",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-5-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case5/clothing_reference.png",
+      "source_sha256": "ac467d218f69bdc617f3fce7cab67d5893eca9672775426c0c94cdf2b362e1a5",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-6-source.mp4",
+      "source": "native-runs/case6/input/source.glb",
+      "source_sha256": "d17faf51348d22748b8ec34781fb02e58e27c5a4780355796229015d5fc10d56",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case6/input/source.glb",
+        "mesh_sha256": "d17faf51348d22748b8ec34781fb02e58e27c5a4780355796229015d5fc10d56",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-6-edited.mp4",
+      "source": "native-runs/case6/edited_orbit.mp4",
+      "source_sha256": "2c84d7e2cf84585ad16ee10e79f01e7c9138c13f245505539271994d0c480049",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-6-front.webp",
+      "source": "native-runs/case6/source_front.png",
+      "source_sha256": "5933bc88a5be254b8bc7c8301fd079ec0d7d3f1940e2abf7fd4f6838c943466a",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-6-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case6/clothing_reference.png",
+      "source_sha256": "1fd0ac4068514c7d1d9b087e065063a869fadc71ddc59d03398a2a58920b80fc",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-7-source.mp4",
+      "source": "native-runs/case7/input/source.glb",
+      "source_sha256": "c202a77a75117a6a4883e643b0c48e8405667871204460e808519ba7be576119",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case7/input/source.glb",
+        "mesh_sha256": "c202a77a75117a6a4883e643b0c48e8405667871204460e808519ba7be576119",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-7-edited.mp4",
+      "source": "native-runs/case7/edited_orbit.mp4",
+      "source_sha256": "7e6c5521a57585674f01f669505c46927254f5102a72b047ef4c1b21e4d97f7e",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-7-no_residual.mp4",
+      "source": "experiments/outputs/native_ablation/no_residual/case7/edited_orbit.mp4",
+      "source_sha256": "5ce220275ca002d93d52471aef6898a1fcdacd53fee7afa57b2228656e04a246",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-7-full_residual.mp4",
+      "source": "experiments/outputs/native_ablation/full_residual/case7/edited_orbit.mp4",
+      "source_sha256": "96884843678f0bdf735d28f1c6b74ac8e34e8e252ba60fd0ebef3d7d31bc9ab0",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/videos/native-7-no_transfer.mp4",
+      "source": "experiments/outputs/native_ablation/no_transfer/case7/edited_orbit.mp4",
+      "source_sha256": "c83ad269e37841c775814dc15643978839022e5a1ef363463b8aaefd27587358",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-7-front.webp",
+      "source": "native-runs/case7/source_front.png",
+      "source_sha256": "cbc1865bfefc4f4ea800e6a2e25e001cca192a6edcb5e1b9cab248ffdbebb182",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-7-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case7/clothing_reference.png",
+      "source_sha256": "b61944c7b069118909b29271e7879ee81630211e33873a3bab15393f1e912bd0",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-8-source.mp4",
+      "source": "native-runs/case8/input/source.glb",
+      "source_sha256": "a7ef8a798cfff7b05917284ba23a946550128b776c215003ed8832a8d964d86d",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case8/input/source.glb",
+        "mesh_sha256": "a7ef8a798cfff7b05917284ba23a946550128b776c215003ed8832a8d964d86d",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-8-edited.mp4",
+      "source": "native-runs/case8/edited_orbit.mp4",
+      "source_sha256": "d4f7867e7d3b113240e0ece3459ac041b4bebea81ec40e025193411033353058",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-8-front.webp",
+      "source": "native-runs/case8/source_front.png",
+      "source_sha256": "6da4f0b4fef11a078cb703356fad61506e7f0227ad05482ef9efdf0113da35a3",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-8-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case8/clothing_reference.png",
+      "source_sha256": "776de4ba4e22068fb08fc07f85a37fbec186774876e1f83fcc013f067a31fd87",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/videos/native-9-source.mp4",
+      "source": "native-runs/case9/input/source.glb",
+      "source_sha256": "bf42cf3956b0c72e019dc3d92d4614081b2e4f118bdfd9594f2c4a32381633bd",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes",
+      "render": {
+        "mesh": "native-runs/case9/input/source.glb",
+        "mesh_sha256": "bf42cf3956b0c72e019dc3d92d4614081b2e4f118bdfd9594f2c4a32381633bd",
+        "renderer": "flowportal3d.render.Renderer",
+        "camera": "flowportal3d.render.camera(source_vertices,512,768,270+360*frame/48)",
+        "frames": 49,
+        "fps": 8,
+        "operation": "render the existing source mesh using exactly the output orbit cameras; no model inference"
+      }
+    },
+    {
+      "file": "assets/videos/native-9-edited.mp4",
+      "source": "native-runs/case9/edited_orbit.mp4",
+      "source_sha256": "43d132042014558f107ffc1781161219dea1edb66efda00bee024c2a7f29edcc",
+      "source_stream": {
+        "width": 512,
+        "height": 768,
+        "r_frame_rate": "8/1",
+        "duration": "6.125000",
+        "nb_frames": "49"
+      },
+      "operation": "H.264 web encoding; full frames preserved, no crop or content changes"
+    },
+    {
+      "file": "assets/images/native-9-front.webp",
+      "source": "native-runs/case9/source_front.png",
+      "source_sha256": "a58734cb6f5081926af32966a2e5e6c8983a030b1cfc049aedd71a5ad9f02b79",
+      "operation": "aspect-preserving web conversion; no content changes"
+    },
+    {
+      "file": "assets/images/native-9-reference.webp",
+      "source": "manuscript/datasets/portrait-ten/case9/clothing_reference.png",
+      "source_sha256": "12aaab4ca9c3ccac9c613818cb9e9bd338a32d35ec57c0e1b601607c35424d38",
+      "operation": "aspect-preserving web conversion; no content changes"
+    }
+  ],
+  "source_roots": {
+    "manuscript": "FlowPortal-FullEditing",
+    "experiments": "FlowCine-experiments",
+    "native-runs": "TRELLIS.2-flowportal/flowportal3d_runs"
+  },
+  "coverage": {
+    "video_results": {
+      "count": 24,
+      "paper_cases": [
+        "good10",
+        "sunroom_floral",
+        "bg_new2",
+        "good7_selected",
+        "good2",
+        "bluehour_jacket",
+        "text_man5",
+        "text_woman2",
+        "bgcloth_dancing2",
+        "man_ic",
+        "good15",
+        "good1",
+        "good3",
+        "good4",
+        "good5",
+        "good6",
+        "good7",
+        "good8",
+        "good9",
+        "good11",
+        "good12",
+        "good13",
+        "good14",
+        "lounge_suit"
+      ],
+      "figures": [
+        "teaser",
+        "video_results",
+        "audit_text_r2",
+        "audit_scene_r2",
+        "audit_assets_r2"
+      ]
+    },
+    "native_results": {
+      "count": 10,
+      "paper_cases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "figures": [
+        "teaser",
+        "native3d_main",
+        "native3d_gallery_0",
+        "native_external",
+        "native_pilot"
+      ]
+    },
+    "video_comparisons": {
+      "count": 4,
+      "paper_cases": [
+        "good2",
+        "good5",
+        "lounge_suit",
+        "good7_selected"
+      ],
+      "methods_per_case": 6,
+      "figures": [
+        "video_comparison_text",
+        "video_comparison_more"
+      ]
+    },
+    "video_ablations": {
+      "count": 2,
+      "paper_cases": [
+        "good10",
+        "sunroom_floral"
+      ],
+      "variants_per_case": 4,
+      "figure": "video_ablation"
+    },
+    "native_ablations": {
+      "paper_cases": [
+        0,
+        2,
+        7
+      ],
+      "variants_per_case": 4,
+      "figure": "native_pilot"
+    }
+  }
+}

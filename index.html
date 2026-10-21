@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="FlowCine: a training-free framework for controllable human-centric editing across video shots and native 3D assets. Explore interactive video comparisons, shared designs across shots, and native 3D editing results.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FlowCine — Controllable Human-Centric Editing">
+  <meta property="og:description" content="Reimagine the scene. Preserve the performance. Explore the results of residual-corrected flow across video shots and native 3D assets.">
+  <meta property="og:image" content="assets/images/loft-edited.webp">
+  <title>FlowCine | Controllable Human-Centric Editing</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/images/loft-edited.webp" as="image">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="wordmark" href="#top" aria-label="FlowCine home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 5h22v6H11v5h12v6H11v5H5z" fill="currentColor"/><path d="M21 14h6v13h-6z" fill="var(--accent)"/></svg>Flow<span>Cine</span></a>
+      <nav aria-label="Main navigation"><a href="#results">Results</a><a href="#method">Method</a><a href="#multishot">Multi-shot</a><a href="#native3d">3D assets</a><a href="#analysis">Comparisons</a></nav>
+      <span class="resource-not-ready"><a inert aria-hidden="true" class="nav-paper" href="#paper">Read the paper <span aria-hidden="true">↗</span></a><span class="resource-button-mask">not ready yet</span></span>
+    </div>
+    <div class="reading-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="paper-title">
+      <p class="eyebrow"><span class="status-dot"></span> Human-centric editing <span class="eyebrow-divider">/</span> Research project</p>
+      <div class="project-name" aria-hidden="true">Flow<span>Cine</span><span class="name-period">.</span></div>
+      <h1 id="paper-title">Residual Corrected Flow for<br class="desktop-break"> Controllable Human-Centric Editing<br class="desktop-break"> <span>Across Video Shots and 3D Assets</span></h1>
+      <div class="authors"><a href="https://gaowenshuo.github.io/index/" target="_blank" rel="noopener noreferrer">Wenshuo Gao</a><span>Jiangyue Zeng</span><a href="https://williamyang1991.github.io/" target="_blank" rel="noopener noreferrer">Shuai Yang<sup>✉</sup></a></div>
+      <p class="affiliation">Wangxuan Institute of Computer Technology, Peking University</p>
+      <div class="hero-actions"><span class="resource-not-ready"><a inert aria-hidden="true" class="button button-dark" href="assets/papers/flowcine.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2h7l4 4v12H5zM12 2v5h4M8 11h5M8 14h5"/></svg>Paper <span class="button-meta">PDF</span></a><span class="resource-button-mask">not ready yet</span></span><span class="resource-not-ready"><a inert aria-hidden="true" class="button button-outline" href="assets/papers/flowcine-supplement.pdf" target="_blank" rel="noopener">Supplementary <span aria-hidden="true">↗</span></a><span class="resource-button-mask">not ready yet</span></span><a class="text-link" href="#results">Explore the results <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="results-section container section-anchor" id="results" aria-labelledby="results-heading">
+      <div class="section-heading results-heading"><div><p class="section-index">01 / VIDEO EDITING</p><h2 id="results-heading">Reimagine the scene.<br><em>Preserve the performance.</em></h2></div><p class="section-intro">New settings, clothing, props, and light.<br>The person and their recorded performance remain at the center.</p></div>
+      <div class="example-picker"><label for="video-case-select">Explore the examples <span id="video-case-count"></span></label><select id="video-case-select" aria-controls="main-comparison"></select></div>
+      <div class="example-tabs" id="example-tabs" role="tablist" aria-label="Video editing examples"></div>
+      <div class="main-comparison" id="main-comparison"></div>
+      <div class="edit-context" aria-live="polite"><div class="edit-summary"><p class="micro-label" id="edit-category"></p><h3 id="edit-title"></h3><p id="edit-summary"></p><details class="instruction"><summary>View edit instruction <span aria-hidden="true">+</span></summary><p id="edit-instruction"></p></details></div><div class="reference-dock" id="reference-dock"></div></div>
+    </section>
+
+    <section class="overview container" aria-labelledby="overview-heading">
+      <div><p class="section-index">THE IDEA</p><h2 id="overview-heading">Change the design.<br>Keep what makes it <em>them.</em></h2></div>
+      <div class="overview-copy"><p>Human-centric editing should change the world around a person without losing their identity or recorded performance. <strong>FlowCine</strong> brings a shared, training-free editing interface to video shots and native 3D human assets.</p><p>Natural-language instructions and independently optional scene, clothing, and object references define the desired appearance. Region-dependent control, residual correction, and detail transfer help preserve identity-related content as the visual design changes.</p><div class="concept-line"><span>Training-free</span><span>Text &amp; visual references</span><span>Video &amp; native 3D</span></div></div>
+    </section>
+
+    <section class="method-section section-anchor" id="method" aria-labelledby="method-heading"><div class="container">
+      <div class="section-heading"><div><p class="section-index">02 / METHOD</p><h2 id="method-heading">A small correction.<br><em>A shared principle.</em></h2></div><p class="section-intro">Correct the generative flow toward the source where identity matters, while the target condition guides the edit.</p></div>
+      <figure class="method-figure"><button class="zoomable" data-image="assets/images/method.webp" data-caption="Residual-Corrected Flow. Source and target conditions guide denoising, while a consistency residual corrects the source trajectory toward the recorded input." aria-label="Enlarge the residual-corrected flow diagram"><img src="assets/images/method.webp" alt="Three panels illustrate direct inference, consistency residual velocity, and inference using residual-corrected flow." width="2475" height="720" loading="lazy"><span class="expand-cue">Explore the diagram <span aria-hidden="true">↗</span></span></button><figcaption>The reconstruction residual turns a pretrained generative flow into a controllable editing flow.</figcaption></figure>
+      <div class="method-steps"><article><span class="step-number">01</span><h3>Specify the appearance</h3><p>An image editor combines a source view with the edit instruction and optional visual references to construct the target appearance.</p></article><article><span class="step-number">02</span><h3>Preserve identity locally</h3><p>Head-focused residual correction preserves identity-bearing content while leaving clothing and surroundings free to follow the requested design.</p></article><article><span class="step-number">03</span><h3>Transfer source detail</h3><p>Frequency transfer retains fine source information. The same principle extends to sparse 3D features through coordinate-aware filtering.</p></article></div>
+      <div class="regional-study"><div class="regional-copy"><p class="micro-label">REGION-DEPENDENT CONTROL</p><h3>Different regions.<br>Different constraints.</h3><p>Mixed depth-and-edge control protects the head. Depth control follows the rest of the person; the background remains editable.</p></div><div class="control-frames" id="control-frames"></div></div>
+    </div></section>
+
+    <section class="multishot-section container section-anchor" id="multishot" aria-labelledby="multishot-heading">
+      <div class="section-heading"><div><p class="section-index">03 / MULTI-SHOT EDITING</p><h2 id="multishot-heading">One design.<br><em>Across the sequence.</em></h2></div><p class="section-intro">Shared instructions and references coordinate a visual design across independently processed shots, adapting it to each pose and composition.</p></div>
+      <div class="shared-design"><div><span class="micro-label">SHARED DESIGN</span><p>Alpine lakeside <span>·</span> Gingham shirt <span>·</span> Golden apples</p></div><div class="shared-refs" id="shared-refs"></div></div>
+      <div class="gallery-toolbar"><div class="segmented" id="shot-mode" role="group" aria-label="Multi-shot display mode"><button data-mode="source" aria-pressed="false">Original</button><button data-mode="split" aria-pressed="false">Split view</button><button data-mode="edited" aria-pressed="true">FlowCine</button></div><button class="quiet-button" id="play-shots" aria-pressed="false"><span class="play-symbol" aria-hidden="true">▶</span> Play all</button></div>
+      <div class="shot-grid" id="shot-grid"></div>
+      <p class="figure-note">The same supplied design is applied to different camera views and gestures. In split view, drag each divider to inspect the source and edited result.</p>
+    </section>
+
+    <section class="native-section section-anchor" id="native3d" aria-labelledby="native-heading"><div class="container native-layout">
+      <div class="native-copy"><p class="section-index">04 / NATIVE 3D EDITING</p><h2 id="native-heading">The same person.<br><em>In another dimension.</em></h2><p>FlowCine edits native shape and physically based appearance latents, producing reusable assets with modified geometry and materials.</p><p>A spatial head mask applies identity-focused correction across viewing directions. Coordinate-aware frequency transfer preserves detail on sparse 3D features.</p><div class="asset-tabs" id="asset-tabs" role="tablist" aria-label="Native 3D editing examples"></div><div class="native-variant-picker"><label for="native-variant-select">Result</label><select id="native-variant-select"></select></div><div class="asset-inputs"><figure><button class="zoomable" id="native-source-button" aria-label="Enlarge the source 3D asset"><img id="native-source" alt="Source 3D human asset" width="192" height="240" loading="lazy"></button><figcaption>Source asset</figcaption></figure><span class="input-plus" aria-hidden="true">+</span><figure><button class="zoomable" id="native-reference-button" aria-label="Enlarge the clothing reference"><img id="native-reference" alt="Supplied clothing reference" width="192" height="240" loading="lazy"></button><figcaption>Clothing reference</figcaption></figure></div></div>
+      <div class="orbit-card"><div class="orbit-card-header"><span class="micro-label">INPUT &amp; OUTPUT</span><span class="orbit-badge">360° · synchronized</span></div><div class="orbit-stage" id="orbit-stage" tabindex="0" role="slider" aria-label="Rotate the source and edited 3D assets together" aria-valuemin="0" aria-valuemax="360" aria-valuenow="0" aria-describedby="orbit-help"><div class="orbit-pair"><figure><figcaption>Original</figcaption><video id="orbit-source-video" muted playsinline loop preload="none" poster="assets/images/native-0-source.webp"></video></figure><figure><figcaption id="orbit-result-label">FlowCine</figcaption><video id="orbit-video" muted playsinline loop preload="none" poster="assets/images/native-0-edited.webp"></video></figure></div><div class="orbit-drag-hint" aria-hidden="true"><span>↔</span> Drag to rotate both</div><p class="orbit-error" id="orbit-error" role="status" hidden>This asset could not load. Please try again.</p></div><div class="orbit-controls"><button class="quiet-button" id="orbit-toggle" aria-pressed="true">Pause rotation</button><label for="orbit-range" class="sr-only">Shared viewing angle</label><input id="orbit-range" type="range" min="0" max="1000" value="0"><output id="orbit-angle" for="orbit-range">0°</output></div><p id="orbit-help">Drag either asset to rotate both. Keyboard: ← and →.</p></div>
+    </div></section>
+
+    <section class="analysis-section section-anchor" id="analysis" aria-labelledby="analysis-heading"><div class="container">
+      <div class="section-heading"><div><p class="section-index">05 / A CLOSER LOOK</p><h2 id="analysis-heading">Look at what changes.<br><em>And what stays.</em></h2></div><p class="section-intro">Inspect comparisons with other methods and the contribution of the components in FlowCine.</p></div>
+      <div class="analysis-tabs" role="tablist" aria-label="Analysis type"><button id="comparison-tab" data-analysis="comparison" role="tab" aria-selected="true" aria-controls="analysis-panel">Method comparisons</button><button id="ablation-tab" data-analysis="ablation" role="tab" aria-selected="false" aria-controls="analysis-panel" tabindex="-1">Component ablations</button></div>
+      <div id="analysis-panel" role="tabpanel" aria-labelledby="comparison-tab"><div class="analysis-case-picker"><label for="analysis-case-select">Example <span id="analysis-case-count"></span></label><select id="analysis-case-select" aria-controls="analysis-comparison"></select></div><div class="variant-options" id="variant-options" role="group" aria-label="Select a comparison method"></div><div id="analysis-comparison"></div><div class="analysis-caption"><h3 id="analysis-title"></h3><p id="analysis-description"></p></div></div>
+    </div></section>
+
+    <section class="limitations container" aria-labelledby="limitations-heading"><div><p class="section-index">OPEN CHALLENGES</p><h2 id="limitations-heading">There is more to refine.</h2><p>Complex backgrounds, lighting, motion, and clothing can still exceed the capabilities of the underlying image editing and video generation models, limiting the fidelity of fine detail.</p></div><button class="limitation-preview" id="limitation-preview" aria-label="Watch the challenging boxing edit"><img src="assets/images/limitation.webp" alt="A challenging boxing sequence with complex clothing, lighting and background" width="800" height="448" loading="lazy"><span><span class="play-circle" aria-hidden="true">▶</span> Challenging video edit</span></button></section>
+
+    <section class="paper-section section-anchor paper-not-ready" id="paper" aria-labelledby="paper-availability"><div class="paper-availability-mask"><p id="paper-availability">not ready yet</p></div><div class="container paper-layout" inert aria-hidden="true"><div class="paper-preview"><a href="assets/papers/flowcine.pdf" target="_blank" rel="noopener" aria-label="Read the FlowCine paper PDF"><img src="assets/images/paper-cover.webp" alt="First page of the FlowCine manuscript" width="612" height="792" loading="lazy"><span class="paper-preview-tag">Read the manuscript <span aria-hidden="true">↗</span></span></a></div><div class="paper-copy"><p class="section-index">06 / PAPER &amp; RESOURCES</p><h2 id="resources-heading">The complete picture.</h2><p>Read the formulation, experiments, and additional results in the paper and supplementary material.</p><div class="paper-links"><a href="assets/papers/flowcine.pdf" target="_blank" rel="noopener">Paper <span>PDF ↗</span></a><a href="assets/papers/flowcine-supplement.pdf" target="_blank" rel="noopener">Supplementary material <span>PDF ↗</span></a></div><div class="citation-header"><h3>Citation</h3><button class="quiet-button" id="copy-citation">Copy BibTeX <span aria-hidden="true">⧉</span></button></div><pre class="citation"><code id="citation-text">@misc{gao2026flowcine,
+  title={Residual Corrected Flow for Controllable
+    Human-Centric Editing Across Video Shots
+    and 3D Assets},
+  author={Gao, Wenshuo and Zeng, Jiangyue
+    and Yang, Shuai},
+  year={2026},
+  note={Project manuscript}
+}</code></pre><p class="copy-status" id="copy-status" role="status"></p></div></div></section>
+  </main>
+
+  <footer class="site-footer container"><a class="wordmark" href="#top">Flow<span>Cine</span><span class="name-period">.</span></a><p>Wangxuan Institute of Computer Technology<br>Peking University</p><a class="text-link" href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+  <dialog id="media-dialog" class="media-dialog" aria-labelledby="dialog-caption"><button class="dialog-close" aria-label="Close enlarged media">×</button><div id="dialog-content"></div><p id="dialog-caption"></p></dialog>
+  <noscript><div class="noscript-note">Enable JavaScript to use the comparison sliders and explore the galleries. The <a href="assets/papers/flowcine.pdf">paper</a> and <a href="assets/papers/flowcine-supplement.pdf">supplementary material</a> are available as PDFs.</div></noscript>
+</body>
+</html>
