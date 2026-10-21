@@ -239,6 +239,119 @@
     tabs[next].click(); tabs[next].focus();
   });
 
+  // Continuous, draggable thumbnail belts. Only the original controls enter the tab order.
+  const conveyors = new Map();
+  function mountConveyor(root) {
+    conveyors.get(root)?.destroy();
+    const items = [...root.children];
+    if (!items.length) return;
+    let shell = root.parentElement;
+    if (!shell.classList.contains('conveyor-shell')) {
+      shell = document.createElement('div'); shell.className = 'conveyor-shell';
+      root.before(shell); shell.append(root);
+    }
+    shell.querySelector('.conveyor-toggle')?.remove();
+    const toggle = document.createElement('button'); toggle.type = 'button'; toggle.className = 'conveyor-toggle';
+    shell.append(toggle);
+    root.classList.add('conveyor');
+    const track = document.createElement('div'); track.className = 'conveyor-track';
+    items.forEach(item => { item.classList.add('conveyor-item'); track.append(item); });
+    root.replaceChildren(track);
+    const events = new AbortController();
+    const signal = events.signal;
+    let period = 0, frame = 0, lastTime = 0, carry = 0, visible = false;
+    let hover = false, focused = false, pointer = null, lastX = 0, dragged = false;
+    let userPaused = reducedMotion.matches, cooldown = 0, clones = [];
+    const sync = () => {
+      for (const clone of clones) {
+        const original = items[Number(clone.dataset.conveyorClone)];
+        clone.dataset.active = String(original.getAttribute('aria-selected') === 'true' || original.getAttribute('aria-pressed') === 'true');
+      }
+    };
+    const setToggle = () => {
+      const paused = userPaused;
+      toggle.textContent = paused ? '▶' : 'Ⅱ';
+      toggle.setAttribute('aria-label', paused ? 'Start scrolling examples' : 'Pause scrolling examples');
+      toggle.setAttribute('aria-pressed', String(!paused));
+    };
+    const wrap = () => {
+      if (!period || focused) return;
+      if (root.scrollLeft < period * .5) root.scrollLeft += period;
+      else if (root.scrollLeft >= period * 1.5) root.scrollLeft -= period;
+    };
+    const layout = () => {
+      const phase = period ? ((root.scrollLeft % period) + period) % period / period : 0;
+      clones.forEach(clone => clone.remove()); clones = [];
+      const first = items[0].getBoundingClientRect(), last = items.at(-1).getBoundingClientRect();
+      period = last.right - first.left + 10;
+      if (!(period > 0)) return;
+      const copies = Math.max(3, Math.ceil(root.clientWidth / period) + 3);
+      for (let group = 1; group < copies; group++) for (const [index, item] of items.entries()) {
+        const clone = document.createElement('div');
+        clone.className = item.className;
+        clone.innerHTML = item.innerHTML;
+        clone.dataset.conveyorClone = String(index);
+        clone.setAttribute('aria-hidden', 'true');
+        clone.setAttribute('role', 'presentation');
+        track.append(clone); clones.push(clone);
+      }
+      sync(); root.scrollLeft = period * (1 + phase);
+    };
+    const tick = time => {
+      const dt = lastTime ? Math.min(50, time - lastTime) : 0; lastTime = time;
+      if (visible && !document.hidden && !userPaused && !hover && !focused && pointer === null && time > cooldown) {
+        carry += dt * .024;
+        if (carry >= 1) { const step = Math.floor(carry); root.scrollLeft += step; carry -= step; wrap(); }
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    root.addEventListener('pointerenter', event => { if (event.pointerType === 'mouse') hover = true; }, { signal });
+    root.addEventListener('pointerleave', () => { hover = false; }, { signal });
+    root.addEventListener('focusin', event => {
+      focused = true;
+      if (items.includes(event.target)) event.target.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'instant' });
+    }, { signal });
+    root.addEventListener('focusout', () => { focused = root.contains(document.activeElement); queueMicrotask(() => { focused = root.contains(document.activeElement); }); }, { signal });
+    root.addEventListener('scroll', wrap, { passive: true, signal });
+    root.addEventListener('wheel', event => {
+      if (Math.abs(event.deltaX) > Math.abs(event.deltaY) || event.shiftKey) {
+        event.preventDefault(); root.scrollLeft += event.deltaX || event.deltaY; cooldown = performance.now() + 1600; wrap();
+      }
+    }, { passive: false, signal });
+    root.addEventListener('pointerdown', event => {
+      if (event.pointerType === 'mouse' && event.button !== 0) return;
+      pointer = event.pointerId; lastX = event.clientX; dragged = false;
+    }, { signal });
+    root.addEventListener('pointermove', event => {
+      if (pointer !== event.pointerId) return;
+      const dx = lastX - event.clientX;
+      if (!dragged && Math.abs(dx) < 4) return;
+      dragged = true; root.setPointerCapture(event.pointerId); root.classList.add('is-dragging');
+      root.scrollLeft += dx; lastX = event.clientX; wrap();
+    }, { signal });
+    const finish = () => { pointer = null; root.classList.remove('is-dragging'); cooldown = performance.now() + 1200; };
+    for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) root.addEventListener(type, finish, { signal });
+    root.addEventListener('click', event => {
+      if (dragged) { event.preventDefault(); event.stopImmediatePropagation(); dragged = false; return; }
+      const clone = event.target.closest('[data-conveyor-clone]');
+      if (clone) { event.preventDefault(); items[Number(clone.dataset.conveyorClone)].click(); }
+    }, { capture: true, signal });
+    toggle.addEventListener('click', () => {
+      userPaused = !userPaused;
+      setToggle();
+    }, { signal });
+    reducedMotion.addEventListener('change', event => { if (event.matches) userPaused = true; setToggle(); }, { signal });
+    const observer = new IntersectionObserver(entries => { visible = entries[0].isIntersecting; }, { threshold: 0 });
+    observer.observe(root);
+    const resize = new ResizeObserver(layout); resize.observe(root);
+    const selection = new MutationObserver(sync);
+    items.forEach(item => selection.observe(item, { attributes: true, attributeFilter: ['aria-selected', 'aria-pressed'] }));
+    const controller = { sync, destroy() { events.abort(); observer.disconnect(); resize.disconnect(); selection.disconnect(); cancelAnimationFrame(frame); toggle.remove(); } };
+    conveyors.set(root, controller); setToggle(); layout();
+    document.fonts?.ready.then(() => { if (!signal.aborted) layout(); });
+    frame = requestAnimationFrame(tick);
+  }
+
   // Primary result explorer.
   const mainPlayer = new Comparison($('#main-comparison'), { autoplay: true });
   $('#main-comparison').setAttribute('role', 'tabpanel');
@@ -256,15 +369,10 @@
     button.addEventListener('click', () => selectExample(example));
     $('#example-tabs').append(button);
   }
-  for (const example of data.cases) {
-    const option = document.createElement('option'); option.value = example.id; option.textContent = example.title;
-    $('#video-case-select').append(option);
-  }
   $('#video-case-count').textContent = `(${data.cases.length})`;
-  $('#video-case-select').addEventListener('change', event => selectExample(data.cases.find(example => example.id === event.target.value)));
+  mountConveyor($('#example-tabs'));
   function selectExample(example) {
-    $('#video-case-select').value = example.id;
-    for (const tab of $$('.example-tab')) {
+    for (const tab of $$('.example-tab:not([data-conveyor-clone])')) {
       const active = tab.dataset.case === example.id;
       tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1;
     }
@@ -391,27 +499,34 @@
     $('#native-source-button').dataset.caption = `${asset.title}: source native 3D asset.`;
     $('#native-reference-button').dataset.image = asset.reference;
     $('#native-reference-button').dataset.caption = `${asset.title}: supplied clothing reference.`;
-    const picker = $('#native-variant-select'); picker.replaceChildren();
-    for (const variant of asset.variants) {
-      const option = document.createElement('option'); option.value = variant.id; option.textContent = variant.label; picker.append(option);
-    }
+    const picker = $('#native-variant-options'); conveyors.get(picker)?.destroy(); conveyors.delete(picker); picker.replaceChildren();
     picker.closest('.native-variant-picker').hidden = asset.variants.length < 2;
+    for (const variant of asset.variants) {
+      const button = document.createElement('button'); button.type = 'button'; button.dataset.variant = variant.id;
+      button.textContent = variant.label; button.setAttribute('aria-pressed', String(variant === nativeVariant));
+      button.addEventListener('click', () => {
+        nativeVariant = variant;
+        for (const option of $$('button', picker)) option.setAttribute('aria-pressed', String(option === button));
+        loadOrbitPair();
+      }); picker.append(button);
+    }
+    if (asset.variants.length > 1) mountConveyor(picker);
     for (const tab of $$('button', $('#asset-tabs'))) {
       const active = tab.dataset.asset === asset.id;
       tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1;
     }
     loadOrbitPair();
   }
-  $('#native-variant-select').addEventListener('change', event => {
-    nativeVariant = nativeExample.variants.find(variant => variant.id === event.target.value); loadOrbitPair();
-  });
   for (const asset of data.native) {
     const button = document.createElement('button'); button.type = 'button'; button.role = 'tab';
-    button.dataset.asset = asset.id; button.textContent = asset.title;
+    button.dataset.asset = asset.id;
+    const image = document.createElement('img'); image.src = asset.poster; image.alt = ''; image.width = 32; image.height = 44;
+    const label = document.createElement('span'); label.textContent = asset.title; button.append(image, label);
     button.id = `asset-${asset.id}`; button.setAttribute('aria-controls', 'orbit-panel');
     button.addEventListener('click', () => selectAsset(asset)); $('#asset-tabs').append(button);
   }
   $('.orbit-card').id = 'orbit-panel'; $('.orbit-card').setAttribute('role', 'tabpanel');
+  mountConveyor($('#asset-tabs'));
   installTabKeyboard($('#asset-tabs'));
   selectAsset(nativeExample); updateOrbitButton();
   const orbitObserver = new IntersectionObserver(entries => {
@@ -474,13 +589,19 @@
     $('#analysis-description').textContent = `Example ${analysisCase.title}. Drag the divider to compare the original performance with ${variant.label}.`;
   }
   function selectAnalysisCase(example) {
-    analysisCase = example; $('#analysis-case-select').value = example.id;
+    analysisCase = example;
+    for (const button of $$('button', $('#analysis-case-tabs'))) {
+      const active = button.dataset.analysisCase === example.id;
+      button.setAttribute('aria-selected', String(active)); button.tabIndex = active ? 0 : -1;
+    }
+    $('#analysis-comparison').setAttribute('aria-labelledby', `analysis-case-${example.id}`);
     $('#variant-options').replaceChildren();
     for (const variant of example.variants) {
       const button = document.createElement('button'); button.dataset.variant = variant.id;
       button.textContent = variant.label; button.setAttribute('aria-pressed', 'false');
       button.addEventListener('click', () => selectVariant(variant)); $('#variant-options').append(button);
     }
+    mountConveyor($('#variant-options'));
     selectVariant(example.variants[0]);
   }
   function setAnalysis(type) {
@@ -491,14 +612,20 @@
     }
     $('#analysis-panel').setAttribute('aria-labelledby', type === 'comparison' ? 'comparison-tab' : 'ablation-tab');
     $('#variant-options').setAttribute('aria-label', type === 'comparison' ? 'Select a comparison method' : 'Select a component ablation');
-    const picker = $('#analysis-case-select'); picker.replaceChildren();
+    const picker = $('#analysis-case-tabs'); picker.replaceChildren();
     for (const example of data[type]) {
-      const option = document.createElement('option'); option.value = example.id; option.textContent = example.title; picker.append(option);
+      const button = document.createElement('button'); button.type = 'button'; button.role = 'tab';
+      button.id = `analysis-case-${example.id}`; button.dataset.analysisCase = example.id;
+      button.setAttribute('aria-controls', 'analysis-comparison'); button.setAttribute('aria-selected', 'false'); button.tabIndex = -1;
+      const image = document.createElement('img'); image.src = example.variants[0].poster; image.alt = ''; image.width = 44; image.height = 33;
+      const label = document.createElement('span'); label.textContent = example.title; button.append(image, label);
+      button.addEventListener('click', () => selectAnalysisCase(example)); picker.append(button);
     }
+    mountConveyor(picker);
     $('#analysis-case-count').textContent = `(${data[type].length})`;
     selectAnalysisCase(data[type][0]);
   }
-  $('#analysis-case-select').addEventListener('change', event => selectAnalysisCase(data[analysisType].find(example => example.id === event.target.value)));
+  installTabKeyboard($('#analysis-case-tabs'));
   $$('[data-analysis]').forEach(tab => tab.addEventListener('click', () => setAnalysis(tab.dataset.analysis)));
   installTabKeyboard($('.analysis-tabs')); setAnalysis('comparison');
 
